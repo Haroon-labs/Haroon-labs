@@ -1,6 +1,22 @@
 """Generate README with dynamic GitHub stats."""
 
 import json
+import os
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+from dotenv import load_dotenv
+
+
+def calculate_age(birth_date_str: str) -> str:
+    """Calculate age from birth date string (DD.MM.YYYY format)."""
+    try:
+        birth_date = datetime.strptime(birth_date_str.strip(), "%d.%m.%Y")
+        today = datetime.now()
+        age = relativedelta(today, birth_date)
+        return f"{age.years} years, {age.months} months, {age.days} days"
+    except Exception as e:
+        print(f"[ERROR] Could not parse birth date: {e}")
+        return "N/A"
 
 
 def format_line(label: str, value: str, width: int = 90) -> str:
@@ -24,6 +40,11 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
         output_file: Path to output README.md
     """
 
+    # Load environment variables
+    load_dotenv()
+    birth_date = os.getenv("BIRTH_DATE", "25.12.2000")
+    uptime = calculate_age(birth_date)
+
     # Load stats
     with open(stats_file, "r") as f:
         stats = json.load(f)
@@ -45,7 +66,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
 {format_line('OS', 'Windows 11, macOS Sequoia, Linux (Fedora)', 85)}
-<br>{format_line('Uptime', '21 years, 11 months, 15 days', 85)}
+<br>{format_line('Uptime', uptime, 85)}
 <br>{format_line('Host', 'ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG', 85)}
 <br>{format_line('Kernel', 'Software Development Apprentice | Prompt Engineer', 85)}
 <br>{format_line('IDE', 'VSCode, Cursor, Zsh, Neovim', 85)}

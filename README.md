@@ -14,7 +14,7 @@
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
 OS:......................................... Windows 11, macOS Sequoia, Linux (Fedora)
-<br>Uptime:.................................................. 21 years, 11 months, 15 days
+<br>Uptime:................................................... 25 years, 6 months, 21 days
 <br>Host:................................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
 <br>Kernel:............................. Software Development Apprentice | Prompt Engineer
 <br>IDE:...................................................... VSCode, Cursor, Zsh, Neovim
@@ -31,8 +31,8 @@ OS:......................................... Windows 11, macOS Sequoia, Linux (F
 <br>Discord:.................................................................... haroon.aa
 
 <br>Repos:...................................................... 8 | Stars 1 | Followers 0
-<br>Commits:.......................................................................... 270
-<br>Lines of Code:............................................ 196,324 (+196,324, -83,680)
+<br>Commits:.......................................................................... 273
+<br>Lines of Code:............................................ 196,370 (+196,370, -83,725)
 
 </td>
 </tr>
