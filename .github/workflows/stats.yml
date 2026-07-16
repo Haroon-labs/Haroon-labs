@@ -1,0 +1,51 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    # Run every day at midnight UTC
+    - cron: "0 0 * * *"
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch GitHub stats & generate README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python main.py profile.png
+
+      - name: Commit & push updated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only commit if README changed
+          if [ -n "$(git status README.md --porcelain)" ]; then
+            git add README.md stats.json ascii_art.txt
+            git commit -m "chore: update GitHub stats (auto)
+
+Automated stats update:
+- Repos: $(grep 'Repos:' README.md | head -1 | grep -oP '\d+' | head -1)
+- Commits: $(grep 'Commits:' README.md | grep -oP '\d+(?:,\d{3})*' | head -1)
+- Lines of Code: $(grep 'Lines of Code' README.md | grep -oP '\d+(?:,\d{3})*' | head -1)"
+            git push
+          else
+            echo "No changes to README"
+          fi
