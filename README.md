@@ -6,7 +6,7 @@
 <td width="35%" valign="bottom" style="padding-right: 20px;">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="dark.jpg">
   <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </picture>
 
