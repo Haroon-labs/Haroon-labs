@@ -48,6 +48,11 @@ def main(image_path: str = None, generate_svg: bool = True):
         json.dump(stats, f, indent=2)
     print("\n[STATS] Stats saved to stats.json")
 
+    # Generate README with stats
+    print("\n[README] Generating README with stats...")
+    from readme_generator import generate_readme
+    generate_readme()
+
     # Convert image to ASCII art if provided
     if image_path and os.path.exists(image_path):
         print(f"\n[ART] Converting image to ASCII art...")

@@ -1,4 +1,26 @@
-# Haroon Abdul-Ali
+"""Generate README with dynamic GitHub stats."""
+
+import json
+
+
+def generate_readme(stats_file="stats.json", output_file="README.md"):
+    """
+    Generate README with dynamic stats from stats.json.
+
+    Args:
+        stats_file: Path to stats.json
+        output_file: Path to output README.md
+    """
+
+    # Load stats
+    with open(stats_file, "r") as f:
+        stats = json.load(f)
+
+    # Calculate net LOC
+    net_loc = stats["total_additions"] - stats["total_deletions"]
+
+    # Build README content
+    readme_content = f"""# Haroon Abdul-Ali
 
 <table>
 <tr>
@@ -31,9 +53,9 @@
 <span style="color: #ffa657;">Discord:</span>....................... <span style="color: #58a6ff;">haroon.aa</span>
 
 <span style="color: #ffa657;">GitHub Stats</span>
-<span style="color: #ffa657;">Repos:</span>........................ <span style="color: #58a6ff;">8</span> | <span style="color: #ffa657;">Stars:</span> <span style="color: #58a6ff;">1</span> | <span style="color: #ffa657;">Followers:</span> <span style="color: #58a6ff;">0</span>
-<span style="color: #ffa657;">Commits:</span>....................... <span style="color: #58a6ff;">216</span>
-<span style="color: #ffa657;">Lines of Code on GitHub:</span>.... <span style="color: #58a6ff;">195,695</span> (+<span style="color: #79c0ff;">195,695</span>, -<span style="color: #f85149;">82,112</span>)
+<span style="color: #ffa657;">Repos:</span>........................ <span style="color: #58a6ff;">{stats['total_repos']}</span> | <span style="color: #ffa657;">Stars:</span> <span style="color: #58a6ff;">{stats['total_stars']}</span> | <span style="color: #ffa657;">Followers:</span> <span style="color: #58a6ff;">{stats['follower_count']}</span>
+<span style="color: #ffa657;">Commits:</span>....................... <span style="color: #58a6ff;">{stats['total_commits']:,}</span>
+<span style="color: #ffa657;">Lines of Code on GitHub:</span>.... <span style="color: #58a6ff;">{stats['total_additions']:,}</span> (+<span style="color: #79c0ff;">{stats['total_additions']:,}</span>, -<span style="color: #f85149;">{stats['total_deletions']:,}</span>)
 </pre>
 
 </td>
@@ -53,3 +75,19 @@ Full-stack developer passionate about building elegant solutions at the intersec
 ## Let's Connect
 
 Reach out on [LinkedIn](https://linkedin.com/in/HaroonAbdul-Ali) or email for collaborations, questions, or just to chat about tech.
+"""
+
+    # Write README
+    with open(output_file, "w", encoding="utf-8") as f:
+        f.write(readme_content)
+
+    print(f"[OK] README generated with stats:")
+    print(f"   Repos: {stats['total_repos']}")
+    print(f"   Stars: {stats['total_stars']}")
+    print(f"   Commits: {stats['total_commits']:,}")
+    print(f"   Followers: {stats['follower_count']}")
+    print(f"   Lines of Code: {stats['total_additions']:,}")
+
+
+if __name__ == "__main__":
+    generate_readme()
