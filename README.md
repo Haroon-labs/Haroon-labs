@@ -13,26 +13,26 @@
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
-<span style="color: var(--color-accent-fg);">OS</span>.......................... Windows 11, macOS Sequoia, Linux (Fedora)
-<br><span style="color: var(--color-accent-fg);">Uptime</span>...................... 21 years, 11 months, 15 days
-<br><span style="color: var(--color-accent-fg);">Host</span>........................ ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<br><span style="color: var(--color-accent-fg);">Kernel</span>...................... Software Development Apprentice | Prompt Engineer
-<br><span style="color: var(--color-accent-fg);">IDE</span>......................... VSCode, Cursor, Zsh, Neovim
+OS.......................................... Windows 11, macOS Sequoia, Linux (Fedora)
+<br>Uptime...................................... 21 years, 11 months, 15 days
+<br>Host........................................ ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
+<br>Kernel...................................... Software Development Apprentice | Prompt Engineer
+<br>IDE......................................... VSCode, Cursor, Zsh, Neovim
 
-<br><span style="color: var(--color-accent-fg);">Languages.Programming</span>.... Python, JavaScript, TypeScript, Java
-<br><span style="color: var(--color-accent-fg);">Languages.Computer</span>....... SQL, HTML, CSS, JSON, Markdown
-<br><span style="color: var(--color-accent-fg);">Languages.Real</span>............ German, English, Arabic
+<br>Languages.Programming...................... Python, JavaScript, TypeScript, Java
+<br>Languages.Computer......................... SQL, HTML, CSS, JSON, Markdown
+<br>Languages.Real............................. German, English, Arabic
 
-<br><span style="color: var(--color-accent-fg);">Hobbies.Technical</span>........ LLM Fine-tuning, Network Security
-<br><span style="color: var(--color-accent-fg);">Hobbies.Creative</span>........ Analog Photography, Guitar
+<br>Hobbies.Technical.......................... LLM Fine-tuning, Network Security
+<br>Hobbies.Creative........................... Analog Photography, Guitar
 
-<br><span style="color: var(--color-accent-fg);">Email.Personal</span>.......... haroon.aa.dev@gmail.com
-<br><span style="color: var(--color-accent-fg);">LinkedIn</span>................. Haroon Abdul-Ali
-<br><span style="color: var(--color-accent-fg);">Discord</span>.................. haroon.aa
+<br>Email.Personal............................. haroon.aa.dev@gmail.com
+<br>LinkedIn................................... Haroon Abdul-Ali
+<br>Discord.................................... haroon.aa
 
-<br><span style="color: var(--color-accent-fg);">Repos</span>..................... 8 | <span style="color: var(--color-accent-fg);">Stars</span> 1 | <span style="color: var(--color-accent-fg);">Followers</span> 0
-<br><span style="color: var(--color-accent-fg);">Commits</span>................... 258
-<br><span style="color: var(--color-accent-fg);">Lines of Code</span>............ 196,218 (+196,218, -83,583)
+<br>Repos...................................... 8 | Stars 1 | Followers 0
+<br>Commits.................................... 261
+<br>Lines of Code.............................. 196,226 (+196,226, -83,593)
 
 </td>
 </tr>
