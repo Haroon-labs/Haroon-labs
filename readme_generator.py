@@ -3,6 +3,17 @@
 import json
 
 
+def format_line(label: str, value: str, width: int = 80) -> str:
+    """Format label and value with dots and right-aligned value."""
+    label_with_colon = f"{label}:"
+
+    # Calculate space available for dots
+    remaining = width - len(label_with_colon) - len(value) - 2  # -2 for spaces around dots
+    dots = " . " * (remaining // 3)
+
+    return f"{label_with_colon} {dots} {value}".rstrip()
+
+
 def generate_readme(stats_file="stats.json", output_file="README.md"):
     """
     Generate README with photo and stats side-by-side.
@@ -32,26 +43,26 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
-OS.......................................... Windows 11, macOS Sequoia, Linux (Fedora)
-<br>Uptime...................................... 21 years, 11 months, 15 days
-<br>Host........................................ ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<br>Kernel...................................... Software Development Apprentice | Prompt Engineer
-<br>IDE......................................... VSCode, Cursor, Zsh, Neovim
+{format_line('OS', 'Windows 11, macOS Sequoia, Linux (Fedora)', 75)}
+<br>{format_line('Uptime', '21 years, 11 months, 15 days', 75)}
+<br>{format_line('Host', 'ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG', 75)}
+<br>{format_line('Kernel', 'Software Development Apprentice | Prompt Engineer', 75)}
+<br>{format_line('IDE', 'VSCode, Cursor, Zsh, Neovim', 75)}
 
-<br>Languages.Programming...................... Python, JavaScript, TypeScript, Java
-<br>Languages.Computer......................... SQL, HTML, CSS, JSON, Markdown
-<br>Languages.Real............................. German, English, Arabic
+<br>{format_line('Languages.Programming', 'Python, JavaScript, TypeScript, Java', 75)}
+<br>{format_line('Languages.Computer', 'SQL, HTML, CSS, JSON, Markdown', 75)}
+<br>{format_line('Languages.Real', 'German, English, Arabic', 75)}
 
-<br>Hobbies.Technical.......................... LLM Fine-tuning, Network Security
-<br>Hobbies.Creative........................... Analog Photography, Guitar
+<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Network Security', 75)}
+<br>{format_line('Hobbies.Creative', 'Analog Photography, Guitar', 75)}
 
-<br>Email.Personal............................. haroon.aa.dev@gmail.com
-<br>LinkedIn................................... Haroon Abdul-Ali
-<br>Discord.................................... haroon.aa
+<br>{format_line('Email.Personal', 'haroon.aa.dev@gmail.com', 75)}
+<br>{format_line('LinkedIn', 'Haroon Abdul-Ali', 75)}
+<br>{format_line('Discord', 'haroon.aa', 75)}
 
-<br>Repos...................................... {stats['total_repos']} | Stars {stats['total_stars']} | Followers {stats['follower_count']}
-<br>Commits.................................... {stats['total_commits']:,}
-<br>Lines of Code.............................. {stats['total_additions']:,} (+{stats['total_additions']:,}, -{stats['total_deletions']:,})
+<br>{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 75)}
+<br>{format_line('Commits', f'{stats["total_commits"]:,}', 75)}
+<br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 75)}
 
 </td>
 </tr>
