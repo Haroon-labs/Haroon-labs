@@ -11,7 +11,7 @@
 </picture>
 
 </td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.8; color: var(--color-fg-muted);">
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
 <span style="color: var(--color-accent-fg);">OS</span>.......................... Windows 11, macOS Sequoia, Linux (Fedora)
 <br><span style="color: var(--color-accent-fg);">Uptime</span>...................... 21 years, 11 months, 15 days
@@ -31,8 +31,8 @@
 <br><span style="color: var(--color-accent-fg);">Discord</span>.................. haroon.aa
 
 <br><span style="color: var(--color-accent-fg);">Repos</span>..................... 8 | <span style="color: var(--color-accent-fg);">Stars</span> 1 | <span style="color: var(--color-accent-fg);">Followers</span> 0
-<br><span style="color: var(--color-accent-fg);">Commits</span>................... 255
-<br><span style="color: var(--color-accent-fg);">Lines of Code</span>............ 196,181 (+196,181, -83,518)
+<br><span style="color: var(--color-accent-fg);">Commits</span>................... 258
+<br><span style="color: var(--color-accent-fg);">Lines of Code</span>............ 196,218 (+196,218, -83,583)
 
 </td>
 </tr>

@@ -52,8 +52,6 @@ def main(image_path: str = None, generate_svg: bool = True):
     from readme_generator import generate_readme
     generate_readme()
 
-
-
     return stats
 
 

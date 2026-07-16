@@ -5,7 +5,7 @@ import json
 
 def generate_readme(stats_file="stats.json", output_file="README.md"):
     """
-    Generate README with dynamic stats from stats.json.
+    Generate README with photo and stats side-by-side.
 
     Args:
         stats_file: Path to stats.json
@@ -30,7 +30,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 </picture>
 
 </td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.8; color: var(--color-fg-muted);">
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
 <span style="color: var(--color-accent-fg);">OS</span>.......................... Windows 11, macOS Sequoia, Linux (Fedora)
 <br><span style="color: var(--color-accent-fg);">Uptime</span>...................... 21 years, 11 months, 15 days
