@@ -42,7 +42,7 @@ jobs:
 
           # Only commit if README changed
           if [ -n "$(git status README.md --porcelain)" ]; then
-            git add README.md stats.json ascii_art.txt
+            git add README.md ascii_art.txt
             git commit -m "chore: update GitHub stats (auto)" -m "Automated daily stats update from GitHub Actions"
             git push
           else
