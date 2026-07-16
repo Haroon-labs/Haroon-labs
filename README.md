@@ -5,7 +5,10 @@
 <tr>
 <td width="35%" valign="top">
 
-![Haroon Abdul-Ali](profile.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
+  <img src="white.png" alt="Haroon Abdul-Ali">
+</picture>
 
 </td>
 <td width="65%" valign="top" style="padding-left: 20px; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
