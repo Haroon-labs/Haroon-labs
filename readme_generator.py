@@ -16,51 +16,53 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
     with open(stats_file, "r") as f:
         stats = json.load(f)
 
-    # Calculate net LOC
-    net_loc = stats["total_additions"] - stats["total_deletions"]
-
-    # Build README content
+    # Build README content with theme-aware card
     readme_content = f"""# Haroon Abdul-Ali
 
-<table>
-<tr>
-<td width="40%">
+<div style="display: flex; gap: 20px; padding: 20px; border-radius: 12px; border: 1px solid var(--color-border-default); background-color: var(--color-canvas-subtle);">
 
-![Haroon Abdul-Ali](profile.png)
+<img src="profile.png" width="200" height="200" style="border-radius: 8px; flex-shrink: 0;" alt="Haroon Abdul-Ali">
 
-</td>
-<td width="60%">
+<div style="flex: 1; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
 
-<pre style="color: #c9d1d9; background: transparent; font-family: 'Courier New', monospace; line-height: 1.6;">
-<span style="color: #58a6ff;">haroon@abdul-ali</span>
+<div style="color: var(--color-accent-fg); font-size: 14px; font-weight: 600; margin-bottom: 12px;">haroon@abdul-ali</div>
 
-<span style="color: #ffa657;">OS:</span>............................ Windows 11, macOS Sequoia, Linux (Fedora)
-<span style="color: #ffa657;">Uptime:</span>........................ 21 years, 11 months, 15 days
-<span style="color: #ffa657;">Host:</span>.......................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<span style="color: #ffa657;">Kernel:</span>........................ Software Development Apprentice | Prompt Engineer
-<span style="color: #ffa657;">IDE:</span>........................... VSCode, Cursor, Zsh, Neovim
+<div style="color: var(--color-fg-muted);">
+<span style="color: var(--color-accent-fg);">OS:</span> Windows 11, macOS Sequoia, Linux (Fedora)
+<br><span style="color: var(--color-accent-fg);">Uptime:</span> 21 years, 11 months, 15 days
+<br><span style="color: var(--color-accent-fg);">Host:</span> ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
+<br><span style="color: var(--color-accent-fg);">Kernel:</span> Software Development Apprentice | Prompt Engineer
+<br><span style="color: var(--color-accent-fg);">IDE:</span> VSCode, Cursor, Zsh, Neovim
+</div>
 
-<span style="color: #ffa657;">Languages.Programming:</span>....... Python, JavaScript, TypeScript, Java
-<span style="color: #ffa657;">Languages.Computer:</span>.......... SQL, HTML, CSS, JSON, Markdown
-<span style="color: #ffa657;">Languages.Real:</span>.............. German, English, Arabic
+<div style="margin-top: 12px; color: var(--color-fg-muted);">
+<span style="color: var(--color-accent-fg);">Languages.Programming:</span> Python, JavaScript, TypeScript, Java
+<br><span style="color: var(--color-accent-fg);">Languages.Computer:</span> SQL, HTML, CSS, JSON, Markdown
+<br><span style="color: var(--color-accent-fg);">Languages.Real:</span> German, English, Arabic
+</div>
 
-<span style="color: #ffa657;">Hobbies.Technical:</span>........... LLM Fine-tuning, Network Security
-<span style="color: #ffa657;">Hobbies.Creative:</span>............ Analog Photography, Guitar
+<div style="margin-top: 12px; color: var(--color-fg-muted);">
+<span style="color: var(--color-accent-fg);">Hobbies.Technical:</span> LLM Fine-tuning, Network Security
+<br><span style="color: var(--color-accent-fg);">Hobbies.Creative:</span> Analog Photography, Guitar
+</div>
 
-<span style="color: #ffa657;">Contact</span>
-<span style="color: #ffa657;">Email.Personal:</span>.............. <span style="color: #58a6ff;">haroon.aa.dev@gmail.com</span>
-<span style="color: #ffa657;">LinkedIn:</span>..................... <span style="color: #58a6ff;">Haroon Abdul-Ali</span>
-<span style="color: #ffa657;">Discord:</span>....................... <span style="color: #58a6ff;">haroon.aa</span>
+<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
+<div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">Contact</div>
+<span style="color: var(--color-accent-fg);">Email.Personal:</span> <span style="color: var(--color-accent-fg); text-decoration: underline;">haroon.aa.dev@gmail.com</span>
+<br><span style="color: var(--color-accent-fg);">LinkedIn:</span> Haroon Abdul-Ali
+<br><span style="color: var(--color-accent-fg);">Discord:</span> haroon.aa
+</div>
 
-<span style="color: #ffa657;">GitHub Stats</span>
-<span style="color: #ffa657;">Repos:</span>........................ <span style="color: #58a6ff;">{stats['total_repos']}</span> | <span style="color: #ffa657;">Stars:</span> <span style="color: #58a6ff;">{stats['total_stars']}</span> | <span style="color: #ffa657;">Followers:</span> <span style="color: #58a6ff;">{stats['follower_count']}</span>
-<span style="color: #ffa657;">Commits:</span>....................... <span style="color: #58a6ff;">{stats['total_commits']:,}</span>
-<span style="color: #ffa657;">Lines of Code on GitHub:</span>.... <span style="color: #58a6ff;">{stats['total_additions']:,}</span> (+<span style="color: #79c0ff;">{stats['total_additions']:,}</span>, -<span style="color: #f85149;">{stats['total_deletions']:,}</span>)
-</pre>
+<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
+<div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">GitHub Stats</div>
+<span style="color: var(--color-accent-fg);">Repos:</span> {stats['total_repos']} | <span style="color: var(--color-accent-fg);">Stars:</span> {stats['total_stars']} | <span style="color: var(--color-accent-fg);">Followers:</span> {stats['follower_count']}
+<br><span style="color: var(--color-accent-fg);">Commits:</span> {stats['total_commits']:,}
+<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> {stats['total_additions']:,} (+<span style="color: #79c0ff;">{stats['total_additions']:,}</span>, -<span style="color: #f85149;">{stats['total_deletions']:,}</span>)
+</div>
 
-</td>
-</tr>
-</table>
+</div>
+
+</div>
 
 ---
 
@@ -81,7 +83,7 @@ Reach out on [LinkedIn](https://linkedin.com/in/HaroonAbdul-Ali) or email for co
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(readme_content)
 
-    print(f"[OK] README generated with stats:")
+    print(f"[OK] README generated with theme-aware card:")
     print(f"   Repos: {stats['total_repos']}")
     print(f"   Stars: {stats['total_stars']}")
     print(f"   Commits: {stats['total_commits']:,}")

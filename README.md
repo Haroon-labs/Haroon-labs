@@ -1,44 +1,49 @@
 # Haroon Abdul-Ali
 
-<table>
-<tr>
-<td width="40%">
+<div style="display: flex; gap: 20px; padding: 20px; border-radius: 12px; border: 1px solid var(--color-border-default); background-color: var(--color-canvas-subtle);">
 
-![Haroon Abdul-Ali](profile.png)
+<img src="profile.png" width="200" height="200" style="border-radius: 8px; flex-shrink: 0;" alt="Haroon Abdul-Ali">
 
-</td>
-<td width="60%">
+<div style="flex: 1; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
 
-<pre style="color: #c9d1d9; background: transparent; font-family: 'Courier New', monospace; line-height: 1.6;">
-<span style="color: #58a6ff;">haroon@abdul-ali</span>
+<div style="color: var(--color-accent-fg); font-size: 14px; font-weight: 600; margin-bottom: 12px;">haroon@abdul-ali</div>
 
-<span style="color: #ffa657;">OS:</span>............................ Windows 11, macOS Sequoia, Linux (Fedora)
-<span style="color: #ffa657;">Uptime:</span>........................ 21 years, 11 months, 15 days
-<span style="color: #ffa657;">Host:</span>.......................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<span style="color: #ffa657;">Kernel:</span>........................ Software Development Apprentice | Prompt Engineer
-<span style="color: #ffa657;">IDE:</span>........................... VSCode, Cursor, Zsh, Neovim
+<div style="color: var(--color-fg-muted);">
+<span style="color: var(--color-accent-fg);">OS:</span> Windows 11, macOS Sequoia, Linux (Fedora)
+<br><span style="color: var(--color-accent-fg);">Uptime:</span> 21 years, 11 months, 15 days
+<br><span style="color: var(--color-accent-fg);">Host:</span> ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
+<br><span style="color: var(--color-accent-fg);">Kernel:</span> Software Development Apprentice | Prompt Engineer
+<br><span style="color: var(--color-accent-fg);">IDE:</span> VSCode, Cursor, Zsh, Neovim
+</div>
 
-<span style="color: #ffa657;">Languages.Programming:</span>....... Python, JavaScript, TypeScript, Java
-<span style="color: #ffa657;">Languages.Computer:</span>.......... SQL, HTML, CSS, JSON, Markdown
-<span style="color: #ffa657;">Languages.Real:</span>.............. German, English, Arabic
+<div style="margin-top: 12px; color: var(--color-fg-muted);">
+<span style="color: var(--color-accent-fg);">Languages.Programming:</span> Python, JavaScript, TypeScript, Java
+<br><span style="color: var(--color-accent-fg);">Languages.Computer:</span> SQL, HTML, CSS, JSON, Markdown
+<br><span style="color: var(--color-accent-fg);">Languages.Real:</span> German, English, Arabic
+</div>
 
-<span style="color: #ffa657;">Hobbies.Technical:</span>........... LLM Fine-tuning, Network Security
-<span style="color: #ffa657;">Hobbies.Creative:</span>............ Analog Photography, Guitar
+<div style="margin-top: 12px; color: var(--color-fg-muted);">
+<span style="color: var(--color-accent-fg);">Hobbies.Technical:</span> LLM Fine-tuning, Network Security
+<br><span style="color: var(--color-accent-fg);">Hobbies.Creative:</span> Analog Photography, Guitar
+</div>
 
-<span style="color: #ffa657;">Contact</span>
-<span style="color: #ffa657;">Email.Personal:</span>.............. <span style="color: #58a6ff;">haroon.aa.dev@gmail.com</span>
-<span style="color: #ffa657;">LinkedIn:</span>..................... <span style="color: #58a6ff;">Haroon Abdul-Ali</span>
-<span style="color: #ffa657;">Discord:</span>....................... <span style="color: #58a6ff;">haroon.aa</span>
+<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
+<div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">Contact</div>
+<span style="color: var(--color-accent-fg);">Email.Personal:</span> <span style="color: var(--color-accent-fg); text-decoration: underline;">haroon.aa.dev@gmail.com</span>
+<br><span style="color: var(--color-accent-fg);">LinkedIn:</span> Haroon Abdul-Ali
+<br><span style="color: var(--color-accent-fg);">Discord:</span> haroon.aa
+</div>
 
-<span style="color: #ffa657;">GitHub Stats</span>
-<span style="color: #ffa657;">Repos:</span>........................ <span style="color: #58a6ff;">8</span> | <span style="color: #ffa657;">Stars:</span> <span style="color: #58a6ff;">1</span> | <span style="color: #ffa657;">Followers:</span> <span style="color: #58a6ff;">0</span>
-<span style="color: #ffa657;">Commits:</span>....................... <span style="color: #58a6ff;">216</span>
-<span style="color: #ffa657;">Lines of Code on GitHub:</span>.... <span style="color: #58a6ff;">195,695</span> (+<span style="color: #79c0ff;">195,695</span>, -<span style="color: #f85149;">82,112</span>)
-</pre>
+<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
+<div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">GitHub Stats</div>
+<span style="color: var(--color-accent-fg);">Repos:</span> 8 | <span style="color: var(--color-accent-fg);">Stars:</span> 1 | <span style="color: var(--color-accent-fg);">Followers:</span> 0
+<br><span style="color: var(--color-accent-fg);">Commits:</span> 216
+<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,695 (+<span style="color: #79c0ff;">195,695</span>, -<span style="color: #f85149;">82,112</span>)
+</div>
 
-</td>
-</tr>
-</table>
+</div>
+
+</div>
 
 ---
 
