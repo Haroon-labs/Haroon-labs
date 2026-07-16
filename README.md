@@ -13,26 +13,26 @@
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
-OS:  .  .  .  .  .  .  .  .  .  Windows 11, macOS Sequoia, Linux (Fedora)
-<br>Uptime:  .  .  .  .  .  .  .  .  .  .  .  .  21 years, 11 months, 15 days
-<br>Host:  .  .  .  .  .  .  .  ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<br>Kernel:  .  .  .  .  .  Software Development Apprentice | Prompt Engineer
-<br>IDE:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  VSCode, Cursor, Zsh, Neovim
+OS:......................................... Windows 11, macOS Sequoia, Linux (Fedora)
+<br>Uptime:.................................................. 21 years, 11 months, 15 days
+<br>Host:................................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
+<br>Kernel:............................. Software Development Apprentice | Prompt Engineer
+<br>IDE:...................................................... VSCode, Cursor, Zsh, Neovim
 
-<br>Languages.Programming:  .  .  .  .  .  Python, JavaScript, TypeScript, Java
-<br>Languages.Computer:  .  .  .  .  .  .  .  .  SQL, HTML, CSS, JSON, Markdown
-<br>Languages.Real:  .  .  .  .  .  .  .  .  .  .  .  German, English, Arabic
+<br>Languages.Programming:........................... Python, JavaScript, TypeScript, Java
+<br>Languages.Computer:.................................... SQL, HTML, CSS, JSON, Markdown
+<br>Languages.Real:............................................... German, English, Arabic
 
-<br>Hobbies.Technical:  .  .  .  .  .  .  .  LLM Fine-tuning, Network Security
-<br>Hobbies.Creative:  .  .  .  .  .  .  .  .  .  .  Analog Photography, Guitar
+<br>Hobbies.Technical:.................................. LLM Fine-tuning, Network Security
+<br>Hobbies.Creative:.......................................... Analog Photography, Guitar
 
-<br>Email.Personal:  .  .  .  .  .  .  .  .  .  .  .  haroon.aa.dev@gmail.com
-<br>LinkedIn:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Haroon Abdul-Ali
-<br>Discord:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  haroon.aa
+<br>Email.Personal:............................................... haroon.aa.dev@gmail.com
+<br>LinkedIn:............................................................ Haroon Abdul-Ali
+<br>Discord:.................................................................... haroon.aa
 
-<br>Repos:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  8 | Stars 1 | Followers 0
-<br>Commits:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  267
-<br>Lines of Code:  .  .  .  .  .  .  .  .  .  .  196,274 (+196,274, -83,641)
+<br>Repos:...................................................... 8 | Stars 1 | Followers 0
+<br>Commits:.......................................................................... 270
+<br>Lines of Code:............................................ 196,324 (+196,324, -83,680)
 
 </td>
 </tr>

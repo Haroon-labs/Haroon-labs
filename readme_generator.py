@@ -3,15 +3,16 @@
 import json
 
 
-def format_line(label: str, value: str, width: int = 80) -> str:
-    """Format label and value with dots and right-aligned value."""
+def format_line(label: str, value: str, width: int = 90) -> str:
+    """Format label and value with dots, value right-aligned at end of line."""
     label_with_colon = f"{label}:"
 
-    # Calculate space available for dots
-    remaining = width - len(label_with_colon) - len(value) - 2  # -2 for spaces around dots
-    dots = " . " * (remaining // 3)
+    # Calculate dots to fill the space
+    # Total width = label + dots + value (all aligned)
+    available = width - len(label_with_colon) - len(value)
+    dots = "." * max(1, available)
 
-    return f"{label_with_colon} {dots} {value}".rstrip()
+    return f"{label_with_colon}{dots} {value}"
 
 
 def generate_readme(stats_file="stats.json", output_file="README.md"):
@@ -43,26 +44,26 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
-{format_line('OS', 'Windows 11, macOS Sequoia, Linux (Fedora)', 75)}
-<br>{format_line('Uptime', '21 years, 11 months, 15 days', 75)}
-<br>{format_line('Host', 'ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG', 75)}
-<br>{format_line('Kernel', 'Software Development Apprentice | Prompt Engineer', 75)}
-<br>{format_line('IDE', 'VSCode, Cursor, Zsh, Neovim', 75)}
+{format_line('OS', 'Windows 11, macOS Sequoia, Linux (Fedora)', 85)}
+<br>{format_line('Uptime', '21 years, 11 months, 15 days', 85)}
+<br>{format_line('Host', 'ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG', 85)}
+<br>{format_line('Kernel', 'Software Development Apprentice | Prompt Engineer', 85)}
+<br>{format_line('IDE', 'VSCode, Cursor, Zsh, Neovim', 85)}
 
-<br>{format_line('Languages.Programming', 'Python, JavaScript, TypeScript, Java', 75)}
-<br>{format_line('Languages.Computer', 'SQL, HTML, CSS, JSON, Markdown', 75)}
-<br>{format_line('Languages.Real', 'German, English, Arabic', 75)}
+<br>{format_line('Languages.Programming', 'Python, JavaScript, TypeScript, Java', 85)}
+<br>{format_line('Languages.Computer', 'SQL, HTML, CSS, JSON, Markdown', 85)}
+<br>{format_line('Languages.Real', 'German, English, Arabic', 85)}
 
-<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Network Security', 75)}
-<br>{format_line('Hobbies.Creative', 'Analog Photography, Guitar', 75)}
+<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Network Security', 85)}
+<br>{format_line('Hobbies.Creative', 'Analog Photography, Guitar', 85)}
 
-<br>{format_line('Email.Personal', 'haroon.aa.dev@gmail.com', 75)}
-<br>{format_line('LinkedIn', 'Haroon Abdul-Ali', 75)}
-<br>{format_line('Discord', 'haroon.aa', 75)}
+<br>{format_line('Email.Personal', 'haroon.aa.dev@gmail.com', 85)}
+<br>{format_line('LinkedIn', 'Haroon Abdul-Ali', 85)}
+<br>{format_line('Discord', 'haroon.aa', 85)}
 
-<br>{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 75)}
-<br>{format_line('Commits', f'{stats["total_commits"]:,}', 75)}
-<br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 75)}
+<br>{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 85)}
+<br>{format_line('Commits', f'{stats["total_commits"]:,}', 85)}
+<br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 85)}
 
 </td>
 </tr>
