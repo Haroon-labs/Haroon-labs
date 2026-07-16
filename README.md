@@ -41,8 +41,8 @@
 <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
 <div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">GitHub Stats</div>
 <span style="color: var(--color-accent-fg);">Repos:</span> 8 | <span style="color: var(--color-accent-fg);">Stars:</span> 1 | <span style="color: var(--color-accent-fg);">Followers:</span> 0
-<br><span style="color: var(--color-accent-fg);">Commits:</span> 219
-<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,901 (+195,901, -82,203)
+<br><span style="color: var(--color-accent-fg);">Commits:</span> 220
+<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,935 (+195,935, -82,205)
 </div>
 
 </td>
