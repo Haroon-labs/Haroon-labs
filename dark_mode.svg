@@ -1,49 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="847" height="388" xmlns="http://www.w3.org/2000/svg">
+<svg width="847" height="626" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style>
       text { white-space: pre; }
     </style>
   </defs>
-  <rect width="847" height="388" fill="#0d1117"/>
-    <text x="20" y="50" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</text>
+  <rect width="847" height="626" fill="#0d1117"/>
+    <text x="20" y="50" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="50" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Haroon Abdul-Ali</text>
-    <text x="20" y="64" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</text>
-    <text x="20" y="78" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</text>
+    <text x="20" y="64" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@###########</text>
+    <text x="20" y="78" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="78" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">OS:............................. Windows 11, Linux</text>
-    <text x="20" y="92" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++++++++++++%#S%##%++++++++++++++++++++++++++++</text>
+    <text x="20" y="92" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@@@@@#S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="92" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Uptime:......................... Always Learning</text>
-    <text x="20" y="106" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++++++++++#?**???%@#S++++++++++++++++++++++++++</text>
+    <text x="20" y="106" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@S@@@@@#@#S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="106" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Host:........................... Digital Future Lab</text>
-    <text x="20" y="120" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++++%#***?????#?++++++++++++++++++++++++++</text>
+    <text x="20" y="120" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@##@S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="120" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Kernel:......................... Growth-Oriented</text>
-    <text x="20" y="134" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++++++++++%SS####SS*+++++++++++++++++++++++++++</text>
+    <text x="20" y="134" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@S@#S##@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="134" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">IDEs:........................... VS Code, Neovim</text>
-    <text x="20" y="148" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++++%+*???*%?*%+++++++++++++++++++++++++++</text>
-    <text x="20" y="162" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++++++%*?%%%?S++++++++++++++++++++++++++++</text>
+    <text x="20" y="148" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@%???***+;+?+*++%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="162" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@S%%?%****+;+;++++++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="162" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Languages.Programming:.......... Python, JavaScript, TypeScript</text>
-    <text x="20" y="176" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++++++%#S####*++++++++++++++++++++++++++++</text>
+    <text x="20" y="176" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@S%S%%***???***??*S?@@S@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="176" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Languages.Computer:............ HTML, CSS, SQL, Markdown</text>
-    <text x="20" y="190" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++++++++++**?SSS%**++++++++++++++++++++++++++++</text>
+    <text x="20" y="190" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@S%%%+*%S?*;;+**S+++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="190" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Languages.Real:................ English, German</text>
-    <text x="20" y="204" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++++;;S#S*****%##S;;;+++++++++++++++++++++++</text>
-    <text x="20" y="218" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++++++S%S#@###+;;##@@#%@##S;++++++++++++++++++++</text>
+    <text x="20" y="204" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@%%S@@@@@@##*+*%S@##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="218" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@%#@@%?%S@@@SS+;*%#@#*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="218" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Hobbies.Software:.............. Web Dev, AI/ML, Open Source</text>
-    <text x="20" y="232" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++;%#########@#########@@##S+++++++++++++++++++</text>
+    <text x="20" y="232" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@#%%%?%SS?***S%%*;?%+?*+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="232" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Hobbies.Hardware:.............. Tech, Automation, IoT</text>
-    <text x="20" y="246" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++S###@#######@@#####@##@@##+++++++++++++++++++</text>
-    <text x="20" y="260" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++?###@@#@#####@@#@###@@####S#++++++++++++++++++</text>
+    <text x="20" y="246" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@#%S?**;+;;;*SS%?;;;;;;;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="260" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@#SSS%@S%SS%?;+;+;?#%%@?*+;;;+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="260" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Contact</text>
-    <text x="20" y="274" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++#####@@@@##@@@@@@@@@####@#S++++++++++++++++++</text>
+    <text x="20" y="274" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@S%S%SS#SSS%***++*?###%@+;;;*?@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="274" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Email.Personal:................ haroonabdulali.w@gmail.com</text>
-    <text x="20" y="288" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++%#@###@@@@;?%####S######@###++++++++++++++++++</text>
+    <text x="20" y="288" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@S?#SS@@@#%?%**+?S@@?+++?#*;*#@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="288" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">LinkedIn:...................... HaroonAbdul-Ali</text>
-    <text x="20" y="302" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++S##@@@@?+%?%##@##@###@@@@###++++++++++++++++++</text>
+    <text x="20" y="302" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@##%%#@#S#SS%?#@?%##%*?????+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="302" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Discord:........................ [your handle]</text>
-    <text x="20" y="316" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">++++++++++++++++++++++++S##@@@@@S@#@@@@@##@#@#@@@@##++++++++++++++++++</text>
-    <text x="20" y="330" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++#@@@@@@@@@@@@@@@@@@@@@@@@#+++++++++++++++++++</text>
+    <text x="20" y="316" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@%S@@#@@S@@@#%??%%##S?+?*#S@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="330" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@S#@@@@@@@@#SSS@@@@%%S@S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <text x="497" y="330" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">GitHub Stats</text>
-    <text x="20" y="344" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">+++++++++++++++++++++++++#@@@@@@@@@@@@@@@@@@@@@@@+++++++++++++++++++++</text>
-    <text x="497" y="344" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Repos: 8 | Stars: 1 | Commits: 206</text>
+    <text x="20" y="344" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@#@@@@@#@@@@@@@##@##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="497" y="344" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9">Repos: 8 | Stars: 1 | Commits: 212</text>
+    <text x="20" y="358" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@S#@@@@@@@@@@@@@@@@@@S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="372" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@#S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="386" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@###@#@@@@@@@@@#%?%@@S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="400" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@#@@@@@SS@???@@S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="414" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@#@@@@##S%?%@#S%+;@?;@@@#@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="428" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@S@@@%%%S;+*+;;*+@@@@#@@S@?@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="442" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@#%SS#%S*;++;;;++@@##@@@##@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="456" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@SS******;+;;;;+@@@#@@@@#@@@##@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="470" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@#@@@@@@@@@@#S%S%+?**?***;+:;;;@@@@@@@#@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="484" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@SS**?*???+*++*??+@@@@@S@@@@#@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="498" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@#@@@@@@@@@@@@@@@@S#S?***%?***?*@+@#@#@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="512" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@S#%???#*%S%S+;S?@@@@@@@S@@@#@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="526" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@SS#%+*S%?%S%#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="540" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@##@@@@@@@@@@@@@@@@@@@@%@@+%%??@@@@@@#@@@@@#@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="554" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="568" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="20" y="582" font-family="Courier New, monospace" font-size="11" fill="#c9d1d9" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
 
 </svg>
