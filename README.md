@@ -1,17 +1,8 @@
 # Haroon Abdul-Ali
 
 <div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
-<table>
-<tr>
-<td width="35%" valign="top">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
-  <img src="white.png" alt="Haroon Abdul-Ali">
-</picture>
-
-</td>
-<td width="65%" valign="top" style="padding-left: 20px; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
+<div style="font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6; margin-bottom: 20px;">
 
 <div style="color: var(--color-accent-fg); font-size: 14px; font-weight: 600; margin-bottom: 12px;">haroon@abdul-ali</div>
 
@@ -48,9 +39,17 @@
 <br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,935 (+195,935, -82,205)
 </div>
 
-</td>
-</tr>
-</table>
+</div>
+
+<div style="text-align: center; margin-top: 20px;">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
+  <img src="white.png" alt="Haroon Abdul-Ali" style="max-width: 100%; height: auto; border-radius: 8px;">
+</picture>
+
+</div>
+
 </div>
 
 ---
