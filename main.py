@@ -57,18 +57,12 @@ def main(image_path: str = None, generate_svg: bool = True):
     else:
         ascii_art = None
 
-    # Generate side-by-side profile text
-    if ascii_art:
-        print("\n[PROFILE] Generating side-by-side profile layout...")
-        from profile_renderer import render_profile
-        render_profile()
-
-    # Generate SVG if image was converted
+    # Generate SVG if image was converted (dark + light modes)
     if generate_svg and ascii_art:
-        print("\n[SVG] Rendering SVG profile card...")
+        print("\n[SVG] Rendering profile SVG (dark + light modes)...")
         renderer = SVGRenderer()
-        renderer.render(stats, ascii_art, output_path="profile.svg")
-        print("   [OK] Ready to embed in README!")
+        renderer.render(stats, ascii_art)
+        print("   [OK] dark_mode.svg and light_mode.svg ready!")
 
     return stats
 
