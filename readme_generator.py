@@ -19,11 +19,15 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
     # Build README content with theme-aware card
     readme_content = f"""# Haroon Abdul-Ali
 
-<div style="display: flex; gap: 20px; padding: 20px; border-radius: 12px; border: 1px solid var(--color-border-default); background-color: var(--color-canvas-subtle);">
+<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
+<table>
+<tr>
+<td width="35%" valign="top">
 
-<img src="profile.png" width="200" height="200" style="border-radius: 8px; flex-shrink: 0;" alt="Haroon Abdul-Ali">
+![Haroon Abdul-Ali](profile.png)
 
-<div style="flex: 1; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
+</td>
+<td width="65%" valign="top" style="padding-left: 20px; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
 
 <div style="color: var(--color-accent-fg); font-size: 14px; font-weight: 600; margin-bottom: 12px;">haroon@abdul-ali</div>
 
@@ -48,7 +52,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 
 <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
 <div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">Contact</div>
-<span style="color: var(--color-accent-fg);">Email.Personal:</span> <span style="color: var(--color-accent-fg); text-decoration: underline;">haroon.aa.dev@gmail.com</span>
+<span style="color: var(--color-accent-fg);">Email.Personal:</span> <span style="color: var(--color-accent-fg);">haroon.aa.dev@gmail.com</span>
 <br><span style="color: var(--color-accent-fg);">LinkedIn:</span> Haroon Abdul-Ali
 <br><span style="color: var(--color-accent-fg);">Discord:</span> haroon.aa
 </div>
@@ -57,11 +61,12 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">GitHub Stats</div>
 <span style="color: var(--color-accent-fg);">Repos:</span> {stats['total_repos']} | <span style="color: var(--color-accent-fg);">Stars:</span> {stats['total_stars']} | <span style="color: var(--color-accent-fg);">Followers:</span> {stats['follower_count']}
 <br><span style="color: var(--color-accent-fg);">Commits:</span> {stats['total_commits']:,}
-<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> {stats['total_additions']:,} (+<span style="color: #79c0ff;">{stats['total_additions']:,}</span>, -<span style="color: #f85149;">{stats['total_deletions']:,}</span>)
+<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> {stats['total_additions']:,} (+{stats['total_additions']:,}, -{stats['total_deletions']:,})
 </div>
 
-</div>
-
+</td>
+</tr>
+</table>
 </div>
 
 ---

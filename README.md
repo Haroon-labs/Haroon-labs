@@ -1,10 +1,14 @@
 # Haroon Abdul-Ali
 
-<div style="display: flex; gap: 20px; padding: 20px; border-radius: 12px; border: 1px solid var(--color-border-default); background-color: var(--color-canvas-subtle);">
+<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
+<table>
+<tr>
+<td width="35%" valign="top">
 
-<img src="profile.png" width="200" height="200" style="border-radius: 8px; flex-shrink: 0;" alt="Haroon Abdul-Ali">
+![Haroon Abdul-Ali](profile.png)
 
-<div style="flex: 1; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
+</td>
+<td width="65%" valign="top" style="padding-left: 20px; font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
 
 <div style="color: var(--color-accent-fg); font-size: 14px; font-weight: 600; margin-bottom: 12px;">haroon@abdul-ali</div>
 
@@ -29,7 +33,7 @@
 
 <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
 <div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">Contact</div>
-<span style="color: var(--color-accent-fg);">Email.Personal:</span> <span style="color: var(--color-accent-fg); text-decoration: underline;">haroon.aa.dev@gmail.com</span>
+<span style="color: var(--color-accent-fg);">Email.Personal:</span> <span style="color: var(--color-accent-fg);">haroon.aa.dev@gmail.com</span>
 <br><span style="color: var(--color-accent-fg);">LinkedIn:</span> Haroon Abdul-Ali
 <br><span style="color: var(--color-accent-fg);">Discord:</span> haroon.aa
 </div>
@@ -38,11 +42,12 @@
 <div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">GitHub Stats</div>
 <span style="color: var(--color-accent-fg);">Repos:</span> 8 | <span style="color: var(--color-accent-fg);">Stars:</span> 1 | <span style="color: var(--color-accent-fg);">Followers:</span> 0
 <br><span style="color: var(--color-accent-fg);">Commits:</span> 216
-<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,695 (+<span style="color: #79c0ff;">195,695</span>, -<span style="color: #f85149;">82,112</span>)
+<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,695 (+195,695, -82,112)
 </div>
 
-</div>
-
+</td>
+</tr>
+</table>
 </div>
 
 ---
