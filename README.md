@@ -1,8 +1,17 @@
 # Haroon Abdul-Ali
 
 <div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
+<table style="width: 100%;">
+<tr>
+<td width="35%" valign="bottom" style="padding-right: 20px;">
 
-<div style="font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6; margin-bottom: 20px;">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
+  <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
+</picture>
+
+</td>
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
 
 <div style="color: var(--color-accent-fg); font-size: 14px; font-weight: 600; margin-bottom: 12px;">haroon@abdul-ali</div>
 
@@ -39,17 +48,9 @@
 <br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,935 (+195,935, -82,205)
 </div>
 
-</div>
-
-<div style="text-align: center; margin-top: 20px;">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
-  <img src="white.png" alt="Haroon Abdul-Ali" style="max-width: 100%; height: auto; border-radius: 8px;">
-</picture>
-
-</div>
-
+</td>
+</tr>
+</table>
 </div>
 
 ---
