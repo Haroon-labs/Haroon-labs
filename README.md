@@ -30,9 +30,9 @@ OS:  .  .  .  .  .  .  .  .  .  Windows 11, macOS Sequoia, Linux (Fedora)
 <br>LinkedIn:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  Haroon Abdul-Ali
 <br>Discord:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  haroon.aa
 
-<br>Repos:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  8 | Stars 1 | Followers 0
-<br>Commits:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  267
-<br>Lines of Code:  .  .  .  .  .  .  .  .  .  .  196,274 (+196,274, -83,641)
+<br>Repos:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  1 | Stars 0 | Followers 0
+<br>Commits:  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  67
+<br>Lines of Code:  .  .  .  .  .  .  .  .  .  .  .  .  2,903 (+2,903, -2,227)
 
 </td>
 </tr>
