@@ -6,7 +6,7 @@
 <td width="35%" valign="bottom" style="padding-right: 20px;">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
   <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </picture>
 
@@ -43,9 +43,9 @@
 
 <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
 <div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">GitHub Stats</div>
-<span style="color: var(--color-accent-fg);">Repos:</span> 8 | <span style="color: var(--color-accent-fg);">Stars:</span> 1 | <span style="color: var(--color-accent-fg);">Followers:</span> 0
-<br><span style="color: var(--color-accent-fg);">Commits:</span> 220
-<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 195,935 (+195,935, -82,205)
+<span style="color: var(--color-accent-fg);">Repos:</span> 1 | <span style="color: var(--color-accent-fg);">Stars:</span> 0 | <span style="color: var(--color-accent-fg);">Followers:</span> 0
+<br><span style="color: var(--color-accent-fg);">Commits:</span> 30
+<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 2,652 (+2,652, -826)
 </div>
 
 </td>
