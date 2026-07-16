@@ -57,6 +57,12 @@ def main(image_path: str = None, generate_svg: bool = True):
     else:
         ascii_art = None
 
+    # Generate side-by-side profile text
+    if ascii_art:
+        print("\n[PROFILE] Generating side-by-side profile layout...")
+        from profile_renderer import render_profile
+        render_profile()
+
     # Generate SVG if image was converted
     if generate_svg and ascii_art:
         print("\n[SVG] Rendering SVG profile card...")

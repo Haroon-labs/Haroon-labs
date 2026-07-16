@@ -1,6 +1,3 @@
-# Haroon Abdul-Ali
-
-```
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  Haroon Abdul-Ali
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  OS:............................. Windows 11, Linux
@@ -23,24 +20,3 @@
 ++++++++++++++++++++++++S##@@@@@S@#@@@@@##@#@#@@@@##++++++++++++++++++  
 +++++++++++++++++++++++++#@@@@@@@@@@@@@@@@@@@@@@@@#+++++++++++++++++++  GitHub Stats
 +++++++++++++++++++++++++#@@@@@@@@@@@@@@@@@@@@@@@+++++++++++++++++++++  Repos: 8 | Stars: 1 | Commits: 204
-```
-
----
-
-## About
-
-Passionate full-stack developer building elegant solutions at the intersection of web technologies, AI, and automation. I love crafting intuitive user experiences and exploring cutting-edge frameworks.
-
-**Current focus:** GraphQL APIs • Modern Python • Machine Learning • Open Source
-
----
-
-## Featured Projects
-
-- **HaroonAbdul-Ali** — Automated GitHub profile stats generator with ASCII art conversion
-- More exciting projects coming soon...
-
----
-
-**Let's connect!** Reach out on LinkedIn or email for collaborations, questions, or just to chat about tech.
-
