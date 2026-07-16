@@ -6,7 +6,6 @@ import sys
 from dotenv import load_dotenv
 from github_client import GitHubClient
 from cache import StatsCache
-from ascii_converter import ASCIIConverter
 from readme_generator import generate_readme
 
 
@@ -53,14 +52,6 @@ def main(image_path: str = None, generate_svg: bool = True):
     from readme_generator import generate_readme
     generate_readme()
 
-    # Convert image to ASCII art if provided
-    if image_path and os.path.exists(image_path):
-        print(f"\n[ART] Converting image to ASCII art...")
-        converter = ASCIIConverter(width=70)
-        ascii_art = converter.convert_to_file(image_path, "ascii_art.txt")
-        print(f"   ({len(ascii_art.split(chr(10)))} lines, 70 chars wide)")
-    else:
-        ascii_art = None
 
 
     return stats
