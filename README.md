@@ -1,46 +1,22 @@
 # Haroon Abdul-Ali
 
-```
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  Haroon Abdul-Ali
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  OS:............................. Windows 11, Linux
-+++++++++++++++++++++++++++++++++++%#S%##%++++++++++++++++++++++++++++  Uptime:......................... Always Learning
-+++++++++++++++++++++++++++++++++#?**???%@#S++++++++++++++++++++++++++  Host:........................... Digital Future Lab
-++++++++++++++++++++++++++++++++%#***?????#?++++++++++++++++++++++++++  Kernel:......................... Growth-Oriented
-+++++++++++++++++++++++++++++++++%SS####SS*+++++++++++++++++++++++++++  IDEs:........................... VS Code, Neovim
-++++++++++++++++++++++++++++++++%+*???*%?*%+++++++++++++++++++++++++++  
-++++++++++++++++++++++++++++++++++%*?%%%?S++++++++++++++++++++++++++++  Languages.Programming:.......... Python, JavaScript, TypeScript
-++++++++++++++++++++++++++++++++++%#S####*++++++++++++++++++++++++++++  Languages.Computer:............ HTML, CSS, SQL, Markdown
-+++++++++++++++++++++++++++++++++**?SSS%**++++++++++++++++++++++++++++  Languages.Real:................ English, German
-++++++++++++++++++++++++++++++;;S#S*****%##S;;;+++++++++++++++++++++++  
-++++++++++++++++++++++++++++S%S#@###+;;##@@#%@##S;++++++++++++++++++++  Hobbies.Software:.............. Web Dev, AI/ML, Open Source
-+++++++++++++++++++++++++;%#########@#########@@##S+++++++++++++++++++  Hobbies.Hardware:.............. Tech, Automation, IoT
-+++++++++++++++++++++++++S###@#######@@#####@##@@##+++++++++++++++++++  
-++++++++++++++++++++++++?###@@#@#####@@#@###@@####S#++++++++++++++++++  Contact
-+++++++++++++++++++++++++#####@@@@##@@@@@@@@@####@#S++++++++++++++++++  Email.Personal:................ haroonabdulali.w@gmail.com
-++++++++++++++++++++++++%#@###@@@@;?%####S######@###++++++++++++++++++  LinkedIn:...................... HaroonAbdul-Ali
-++++++++++++++++++++++++S##@@@@?+%?%##@##@###@@@@###++++++++++++++++++  Discord:........................ [your handle]
-++++++++++++++++++++++++S##@@@@@S@#@@@@@##@#@#@@@@##++++++++++++++++++  
-+++++++++++++++++++++++++#@@@@@@@@@@@@@@@@@@@@@@@@#+++++++++++++++++++  GitHub Stats
-+++++++++++++++++++++++++#@@@@@@@@@@@@@@@@@@@@@@@+++++++++++++++++++++  Repos: 8 | Stars: 1 | Commits: 204
-```
+<a href="https://github.com/Haroon2512/HaroonAbdul-Ali">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Haroon2512/HaroonAbdul-Ali/main/dark_mode.svg">
+    <img alt="Haroon Abdul-Ali's GitHub Profile" src="https://raw.githubusercontent.com/Haroon2512/HaroonAbdul-Ali/main/light_mode.svg">
+  </picture>
+</a>
 
 ---
 
 ## About
 
-Passionate full-stack developer building elegant solutions at the intersection of web technologies, AI, and automation. I love crafting intuitive user experiences and exploring cutting-edge frameworks.
+Full-stack developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation.
 
-**Current focus:** GraphQL APIs • Modern Python • Machine Learning • Open Source
-
----
-
-## Featured Projects
-
-- **HaroonAbdul-Ali** — Automated GitHub profile stats generator with ASCII art conversion
-- More exciting projects coming soon...
+**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
 
 ---
 
-**Let's connect!** Reach out on LinkedIn or email for collaborations, questions, or just to chat about tech.
+## Let's Connect
 
+Reach out on [LinkedIn](https://linkedin.com/in/HaroonAbdul-Ali) or email for collaborations, questions, or just to chat about tech.
