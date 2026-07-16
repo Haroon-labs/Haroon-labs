@@ -11,42 +11,28 @@
 </picture>
 
 </td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.6;">
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 13px; line-height: 1.8; color: var(--color-fg-muted);">
 
-<div style="color: var(--color-accent-fg); font-size: 14px; font-weight: 600; margin-bottom: 12px;">haroon@abdul-ali</div>
+<span style="color: var(--color-accent-fg);">OS</span>.......................... Windows 11, macOS Sequoia, Linux (Fedora)
+<br><span style="color: var(--color-accent-fg);">Uptime</span>...................... 21 years, 11 months, 15 days
+<br><span style="color: var(--color-accent-fg);">Host</span>........................ ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
+<br><span style="color: var(--color-accent-fg);">Kernel</span>...................... Software Development Apprentice | Prompt Engineer
+<br><span style="color: var(--color-accent-fg);">IDE</span>......................... VSCode, Cursor, Zsh, Neovim
 
-<div style="color: var(--color-fg-muted);">
-<span style="color: var(--color-accent-fg);">OS:</span> Windows 11, macOS Sequoia, Linux (Fedora)
-<br><span style="color: var(--color-accent-fg);">Uptime:</span> 21 years, 11 months, 15 days
-<br><span style="color: var(--color-accent-fg);">Host:</span> ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<br><span style="color: var(--color-accent-fg);">Kernel:</span> Software Development Apprentice | Prompt Engineer
-<br><span style="color: var(--color-accent-fg);">IDE:</span> VSCode, Cursor, Zsh, Neovim
-</div>
+<br><span style="color: var(--color-accent-fg);">Languages.Programming</span>.... Python, JavaScript, TypeScript, Java
+<br><span style="color: var(--color-accent-fg);">Languages.Computer</span>....... SQL, HTML, CSS, JSON, Markdown
+<br><span style="color: var(--color-accent-fg);">Languages.Real</span>............ German, English, Arabic
 
-<div style="margin-top: 12px; color: var(--color-fg-muted);">
-<span style="color: var(--color-accent-fg);">Languages.Programming:</span> Python, JavaScript, TypeScript, Java
-<br><span style="color: var(--color-accent-fg);">Languages.Computer:</span> SQL, HTML, CSS, JSON, Markdown
-<br><span style="color: var(--color-accent-fg);">Languages.Real:</span> German, English, Arabic
-</div>
+<br><span style="color: var(--color-accent-fg);">Hobbies.Technical</span>........ LLM Fine-tuning, Network Security
+<br><span style="color: var(--color-accent-fg);">Hobbies.Creative</span>........ Analog Photography, Guitar
 
-<div style="margin-top: 12px; color: var(--color-fg-muted);">
-<span style="color: var(--color-accent-fg);">Hobbies.Technical:</span> LLM Fine-tuning, Network Security
-<br><span style="color: var(--color-accent-fg);">Hobbies.Creative:</span> Analog Photography, Guitar
-</div>
+<br><span style="color: var(--color-accent-fg);">Email.Personal</span>.......... haroon.aa.dev@gmail.com
+<br><span style="color: var(--color-accent-fg);">LinkedIn</span>................. Haroon Abdul-Ali
+<br><span style="color: var(--color-accent-fg);">Discord</span>.................. haroon.aa
 
-<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
-<div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">Contact</div>
-<span style="color: var(--color-accent-fg);">Email.Personal:</span> <span style="color: var(--color-accent-fg);">haroon.aa.dev@gmail.com</span>
-<br><span style="color: var(--color-accent-fg);">LinkedIn:</span> Haroon Abdul-Ali
-<br><span style="color: var(--color-accent-fg);">Discord:</span> haroon.aa
-</div>
-
-<div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--color-border-default); color: var(--color-fg-muted);">
-<div style="color: var(--color-fg-default); font-weight: 500; margin-bottom: 8px;">GitHub Stats</div>
-<span style="color: var(--color-accent-fg);">Repos:</span> 8 | <span style="color: var(--color-accent-fg);">Stars:</span> 1 | <span style="color: var(--color-accent-fg);">Followers:</span> 0
-<br><span style="color: var(--color-accent-fg);">Commits:</span> 252
-<br><span style="color: var(--color-accent-fg);">Lines of Code on GitHub:</span> 196,175 (+196,175, -83,512)
-</div>
+<br><span style="color: var(--color-accent-fg);">Repos</span>..................... 8 | <span style="color: var(--color-accent-fg);">Stars</span> 1 | <span style="color: var(--color-accent-fg);">Followers</span> 0
+<br><span style="color: var(--color-accent-fg);">Commits</span>................... 255
+<br><span style="color: var(--color-accent-fg);">Lines of Code</span>............ 196,181 (+196,181, -83,518)
 
 </td>
 </tr>
