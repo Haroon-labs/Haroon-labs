@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from github_client import GitHubClient
 from cache import StatsCache
 from ascii_converter import ASCIIConverter
-from svg_renderer import SVGRenderer
+from readme_generator import generate_readme
 
 
 def main(image_path: str = None, generate_svg: bool = True):
@@ -62,12 +62,6 @@ def main(image_path: str = None, generate_svg: bool = True):
     else:
         ascii_art = None
 
-    # Generate SVG if image was converted (dark + light modes)
-    if generate_svg and ascii_art:
-        print("\n[SVG] Rendering profile SVG (dark + light modes)...")
-        renderer = SVGRenderer()
-        renderer.render(stats, ascii_art)
-        print("   [OK] dark_mode.svg and light_mode.svg ready!")
 
     return stats
 
