@@ -30,9 +30,9 @@
 <br><span style="color: var(--color-accent-fg);">LinkedIn</span>................. Haroon Abdul-Ali
 <br><span style="color: var(--color-accent-fg);">Discord</span>.................. haroon.aa
 
-<br><span style="color: var(--color-accent-fg);">Repos</span>..................... 8 | <span style="color: var(--color-accent-fg);">Stars</span> 1 | <span style="color: var(--color-accent-fg);">Followers</span> 0
-<br><span style="color: var(--color-accent-fg);">Commits</span>................... 255
-<br><span style="color: var(--color-accent-fg);">Lines of Code</span>............ 196,181 (+196,181, -83,518)
+<br><span style="color: var(--color-accent-fg);">Repos</span>..................... 1 | <span style="color: var(--color-accent-fg);">Stars</span> 0 | <span style="color: var(--color-accent-fg);">Followers</span> 0
+<br><span style="color: var(--color-accent-fg);">Commits</span>................... 55
+<br><span style="color: var(--color-accent-fg);">Lines of Code</span>............ 2,797 (+2,797, -2,130)
 
 </td>
 </tr>
