@@ -1,11 +1,6 @@
 # Haroon Abdul-Ali
 
-<a href="https://github.com/Haroon2512/HaroonAbdul-Ali">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Haroon2512/HaroonAbdul-Ali/main/dark_mode.svg">
-    <img alt="Haroon Abdul-Ali's GitHub Profile" src="https://raw.githubusercontent.com/Haroon2512/HaroonAbdul-Ali/main/light_mode.svg">
-  </picture>
-</a>
+![Haroon Abdul-Ali's GitHub Profile](https://raw.githubusercontent.com/Haroon2512/HaroonAbdul-Ali/main/dark_mode.svg)
 
 ---
 
