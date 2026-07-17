@@ -87,12 +87,12 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <br><br><b>Contact</b>
 {rule}
 {format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 100, display_value='haroon.aa.dev@gmail.com')}
-<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 110, display_value='Haroon Abdul-Ali')}
+<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 115, display_value='Haroon Abdul-Ali')}
 <br><br><b>GitHub Stats</b>
 {rule}
-{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 100)}
-<br>{format_line('Commits', f'{stats["total_commits"]:,}', 120)}
-<br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 100)}
+Repos: {stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}
+<br>Commits: {stats["total_commits"]:,}
+<br>Lines of Code: {stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})
 </td>
 </tr>
 </table>

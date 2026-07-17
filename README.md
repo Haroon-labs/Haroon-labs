@@ -26,12 +26,12 @@ OS:.............................................................................
 <br><br><b>Contact</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Email.Personal:.............................................................. <a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>
-<br>LinkedIn:..................................................................................... <a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>
+<br>LinkedIn:.......................................................................................... <a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
-Repos:..................................................................... 8 | Stars 1 | Followers 0
-<br>Commits:............................................................................................................. 383
-<br>Lines of Code:........................................................... 200,135 (+200,135, -87,605)
+Repos: 8 | Stars 1 | Followers 0
+<br>Commits: 328
+<br>Lines of Code: 197,787 (+197,787, -85,257)
 </td>
 </tr>
 </table>
