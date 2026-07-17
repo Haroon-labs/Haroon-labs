@@ -80,18 +80,18 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <br>{format_line('Host', 'C&A GmbH & Co. KG', 115)}
 <br>{format_line('Kernel', 'Software Development Apprentice', 100)}
 <br>{format_line('IDE', 'VSCode, IDEA, Cursor', 120)}
-<br>{format_line('Languages.Programming', 'Python, Java', 100)}
+<br>{format_line('Languages.Programming', 'Python, Java', 103)}
 <br>{format_line('Languages.Real', 'German, English, Persian', 103)}
 <br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 83)}
 <br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 85)}
 <br><br><b>Contact</b>
 {rule}
 {format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 100, display_value='haroon.aa.dev@gmail.com')}
-<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 95, display_value='Haroon Abdul-Ali')}
+<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 110, display_value='Haroon Abdul-Ali')}
 <br><br><b>GitHub Stats</b>
 {rule}
 {format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 100)}
-<br>{format_line('Commits', f'{stats["total_commits"]:,}', 100)}
+<br>{format_line('Commits', f'{stats["total_commits"]:,}', 120)}
 <br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 100)}
 </td>
 </tr>
