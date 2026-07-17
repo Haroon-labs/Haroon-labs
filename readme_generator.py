@@ -80,8 +80,8 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <br>{format_line('Host', 'C&A GmbH & Co. KG', 115)}
 <br>{format_line('Kernel', 'Software Development Apprentice', 100)}
 <br>{format_line('IDE', 'VSCode, IDEA, Cursor', 120)}
-<br>{format_line('Languages.Programming', 'Python, Java', 105)}
-<br>{format_line('Languages.Real', 'German, English, Persian', 102)}
+<br>{format_line('Languages.Programming', 'Python, Java', 100)}
+<br>{format_line('Languages.Real', 'German, English, Persian', 103)}
 <br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 83)}
 <br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 85)}
 <br><br><b>Contact</b>
