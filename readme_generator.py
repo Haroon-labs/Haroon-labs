@@ -75,7 +75,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
 <b>{header}</b>
 {rule}
-{format_line('OS', 'Windows 11, macOS, Linux', 110)}
+{format_line('OS', 'Windows 11, macOS, Linux', 111)}
 <br>{format_line('Uptime', uptime, 108)}
 <br>{format_line('Host', 'C&A GmbH & Co. KG', 115)}
 <br>{format_line('Kernel', 'Software Development Apprentice', 100)}
@@ -87,7 +87,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <br><br><b>Contact</b>
 {rule}
 {format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 100, display_value='haroon.aa.dev@gmail.com')}
-<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 115, display_value='Haroon Abdul-Ali')}
+<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 116, display_value='Haroon Abdul-Ali')}
 <br><br><b>GitHub Stats</b>
 {rule}
 Repos: {stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}
