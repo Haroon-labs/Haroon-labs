@@ -31,7 +31,7 @@ OS:......................................... Windows 11, macOS Sequoia, Linux (F
 <br><br>**Contact**
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Email.Personal:............................................... haroon.aa.dev@gmail.com
-<br>LinkedIn:............................................................ Haroon Abdul-Ali
+<br>LinkedIn:............................................................ [Haroon Abdul-Ali](https://www.linkedin.com/in/aa-haroon/)
 <br>Discord:.................................................................... haroon.aa
 
 <br><br>**GitHub Stats**
@@ -57,4 +57,4 @@ Full-stack developer passionate about building elegant solutions at the intersec
 
 ## Let's Connect
 
-Reach out on [LinkedIn](https://linkedin.com/in/HaroonAbdul-Ali) or email for collaborations, questions, or just to chat about tech.
+Reach out on [LinkedIn](https://www.linkedin.com/in/aa-haroon/) or email for collaborations, questions, or just to chat about tech.

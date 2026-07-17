@@ -19,13 +19,18 @@ def calculate_age(birth_date_str: str) -> str:
         return "N/A"
 
 
-def format_line(label: str, value: str, width: int = 90) -> str:
-    """Format label and value with dots, value right-aligned at end of line."""
+def format_line(label: str, value: str, width: int = 90, display_value: str = None) -> str:
+    """Format label and value with dots, value right-aligned at end of line.
+
+    If value is markdown (e.g. a link) whose rendered width differs from its
+    raw length, pass the rendered text via display_value so dot-padding stays aligned.
+    """
     label_with_colon = f"{label}:"
+    visible_value = display_value if display_value is not None else value
 
     # Calculate dots to fill the space
     # Total width = label + dots + value (all aligned)
-    available = width - len(label_with_colon) - len(value)
+    available = width - len(label_with_colon) - len(visible_value)
     dots = "." * max(1, available)
 
     return f"{label_with_colon}{dots} {value}"
@@ -87,7 +92,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <br><br>**Contact**
 {rule}
 {format_line('Email.Personal', 'haroon.aa.dev@gmail.com', 85)}
-<br>{format_line('LinkedIn', 'Haroon Abdul-Ali', 85)}
+<br>{format_line('LinkedIn', '[Haroon Abdul-Ali](https://www.linkedin.com/in/aa-haroon/)', 85, display_value='Haroon Abdul-Ali')}
 <br>{format_line('Discord', 'haroon.aa', 85)}
 
 <br><br>**GitHub Stats**
@@ -113,7 +118,7 @@ Full-stack developer passionate about building elegant solutions at the intersec
 
 ## Let's Connect
 
-Reach out on [LinkedIn](https://linkedin.com/in/HaroonAbdul-Ali) or email for collaborations, questions, or just to chat about tech.
+Reach out on [LinkedIn](https://www.linkedin.com/in/aa-haroon/) or email for collaborations, questions, or just to chat about tech.
 """
 
     # Write README
