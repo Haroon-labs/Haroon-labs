@@ -14,14 +14,14 @@
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
 <b>haroon-labs@Abdul-Ali</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
-OS:......................................................................... Windows 11, macOS, Linux
-<br>Uptime:.................................................................. 25 years, 6 months, 22 days
+OS:................................................................................... Windows 11, macOS, Linux
+<br>Uptime:....................................................................... 25 years, 6 months, 22 days
 <br>Host:............................................................................................. C&A GmbH & Co. KG
 <br>Kernel:.............................................................. Software Development Apprentice
-<br>IDE:...................................................................................... VSCode, IDEA, Cursor
-<br>Languages.Programming:....................................................................... Python, Java
-<br>Languages.Real:........................................................ German, English, Persian
-<br>Hobbies.Technical:......................... LLM Fine-tuning, Software development
+<br>IDE:........................................................................................... VSCode, IDEA, Cursor
+<br>Languages.Programming:........................................................ Python, Java
+<br>Languages.Real:............................................................. German, English, Persian
+<br>Hobbies.Technical:............................ LLM Fine-tuning, Software development
 <br>Hobbies.Sports/Fitness:........................... Fitness, Jogging, Cycling, Swimming
 <br><br><b>Contact</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
@@ -30,8 +30,8 @@ Email.Personal:.............................................................. <a
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:..................................................................... 8 | Stars 1 | Followers 0
-<br>Commits:......................................................................................... 368
-<br>Lines of Code:........................................................... 199,526 (+199,526, -86,996)
+<br>Commits:......................................................................................... 328
+<br>Lines of Code:........................................................... 197,787 (+197,787, -85,257)
 </td>
 </tr>
 </table>

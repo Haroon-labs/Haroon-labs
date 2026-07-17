@@ -75,14 +75,14 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
 <b>{header}</b>
 {rule}
-{format_line('OS', 'Windows 11, macOS, Linux', 100)}
-<br>{format_line('Uptime', uptime, 100)}
+{format_line('OS', 'Windows 11, macOS, Linux', 110)}
+<br>{format_line('Uptime', uptime, 105)}
 <br>{format_line('Host', 'C&A GmbH & Co. KG', 115)}
 <br>{format_line('Kernel', 'Software Development Apprentice', 100)}
-<br>{format_line('IDE', 'VSCode, IDEA, Cursor', 110)}
-<br>{format_line('Languages.Programming', 'Python, Java', 105)}
-<br>{format_line('Languages.Real', 'German, English, Persian', 95)}
-<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 80)}
+<br>{format_line('IDE', 'VSCode, IDEA, Cursor', 115)}
+<br>{format_line('Languages.Programming', 'Python, Java', 90)}
+<br>{format_line('Languages.Real', 'German, English, Persian', 100)}
+<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 83)}
 <br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 85)}
 <br><br><b>Contact</b>
 {rule}
