@@ -76,18 +76,17 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 
 **{header}**
 {rule}
-{format_line('OS', 'Windows 11, macOS Sequoia, Linux (Fedora)', 85)}
+{format_line('OS', 'Windows 11, macOS, Linux', 85)}
 <br>{format_line('Uptime', uptime, 85)}
-<br>{format_line('Host', 'ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG', 85)}
-<br>{format_line('Kernel', 'Software Development Apprentice | Prompt Engineer', 85)}
-<br>{format_line('IDE', 'VSCode, Cursor, Zsh, Neovim', 85)}
+<br>{format_line('Host', 'C&A GmbH & Co. KG', 85)}
+<br>{format_line('Kernel', 'Software Development Apprentice | Software Engineering', 85)}
+<br>{format_line('IDE', 'VSCode, IDEA, Cursor', 85)}
 
-<br>{format_line('Languages.Programming', 'Python, JavaScript, TypeScript, Java', 85)}
-<br>{format_line('Languages.Computer', 'SQL, HTML, CSS, JSON, Markdown', 85)}
-<br>{format_line('Languages.Real', 'German, English, Arabic', 85)}
+<br>{format_line('Languages.Programming', 'Python, Java, (JavaScript)', 85)}
+<br>{format_line('Languages.Real', 'German, English, Persian', 85)}
 
-<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Network Security', 85)}
-<br>{format_line('Hobbies.Creative', 'Analog Photography, Guitar', 85)}
+<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 85)}
+<br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 85)}
 
 <br><br>**Contact**
 {rule}
