@@ -23,14 +23,16 @@ def toc_row(label: str, value: str) -> str:
     """Render a table-of-contents-style row: label flush left, dot leader
     filling the middle, value flush right at the edge of the column.
 
-    Uses a table cell with a long dot string clipped by overflow:hidden
-    instead of counting characters, so the leader always reaches the true
-    right edge regardless of font, zoom, or embedded HTML (links, etc.).
+    The two columns use fixed percentage widths (set via <colgroup> on the
+    parent table with table-layout: fixed), so the row can never grow wider
+    than its box. The label cell clips a long dot string with overflow:hidden
+    to reach the boundary; the value cell is right-aligned and wraps instead
+    of overflowing if it's ever too long for its column.
     """
     return (
         "<tr>"
-        f'<td style="white-space: nowrap; overflow: hidden; width: 100%; padding: 0;">{label}:{"." * 250}</td>'
-        f'<td style="white-space: nowrap; text-align: right; padding: 0 0 0 6px;">{value}</td>'
+        f'<td style="white-space: nowrap; overflow: hidden; padding: 0;">{label}:{"." * 250}</td>'
+        f'<td style="text-align: right; padding: 0 0 0 6px; word-break: break-word;">{value}</td>'
         "</tr>"
     )
 
@@ -72,7 +74,8 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 
 </td>
 <td width="65%" valign="top" style="padding: 0;">
-<table style="width: 100%; border-collapse: collapse; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
+<colgroup><col style="width: 40%;"><col style="width: 60%;"></colgroup>
 <tr><td colspan="2"><b>{header}</b></td></tr>
 <tr><td colspan="2">{rule}</td></tr>
 {toc_row('OS', 'Windows 11, macOS, Linux')}
