@@ -75,24 +75,24 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
 <b>{header}</b>
 {rule}
-{format_line('OS', 'Windows 11, macOS, Linux', 115)}
-<br>{format_line('Uptime', uptime, 115)}
-<br>{format_line('Host', 'C&A GmbH & Co. KG', 115)}
-<br>{format_line('Kernel', 'Software Development Apprentice | Software Engineering', 115)}
-<br>{format_line('IDE', 'VSCode, IDEA, Cursor', 115)}
-<br>{format_line('Languages.Programming', 'Python, Java, (JavaScript)', 115)}
-<br>{format_line('Languages.Real', 'German, English, Persian', 115)}
-<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 115)}
-<br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 115)}
+{format_line('OS', 'Windows 11, macOS, Linux', 90)}
+<br>{format_line('Uptime', uptime, 90)}
+<br>{format_line('Host', 'C&A GmbH & Co. KG', 90)}
+<br>{format_line('Kernel', 'Software Development Apprentice | Software Engineering', 90)}
+<br>{format_line('IDE', 'VSCode, IDEA, Cursor', 90)}
+<br>{format_line('Languages.Programming', 'Python, Java, (JavaScript)', 90)}
+<br>{format_line('Languages.Real', 'German, English, Persian', 90)}
+<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 90)}
+<br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 90)}
 <br><br><b>Contact</b>
 {rule}
-{format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 115, display_value='haroon.aa.dev@gmail.com')}
-<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 115, display_value='Haroon Abdul-Ali')}
+{format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 90, display_value='haroon.aa.dev@gmail.com')}
+<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 90, display_value='Haroon Abdul-Ali')}
 <br><br><b>GitHub Stats</b>
 {rule}
-{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 115)}
-<br>{format_line('Commits', f'{stats["total_commits"]:,}', 115)}
-<br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 115)}
+{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 90)}
+<br>{format_line('Commits', f'{stats["total_commits"]:,}', 90)}
+<br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 90)}
 </td>
 </tr>
 </table>
