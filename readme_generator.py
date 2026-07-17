@@ -62,9 +62,9 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
     readme_content = f"""# Haroon Abdul-Ali
 
 <div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
-<table style="width: 100%;">
+<table style="width: 100%; border: none;">
 <tr>
-<td width="35%" valign="bottom" style="padding-right: 20px;">
+<td width="35%" valign="bottom" style="padding-right: 20px; border: none;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.png">
@@ -72,7 +72,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 </picture>
 
 </td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
 <b>{header}</b>
 {rule}
 {format_line('OS', 'Windows 11, macOS, Linux', 100)}

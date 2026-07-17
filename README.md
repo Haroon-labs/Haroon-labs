@@ -1,9 +1,9 @@
 # Haroon Abdul-Ali
 
 <div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
-<table style="width: 100%;">
+<table style="width: 100%; border: none;">
 <tr>
-<td width="35%" valign="bottom" style="padding-right: 20px;">
+<td width="35%" valign="bottom" style="padding-right: 20px; border: none;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.png">
@@ -11,7 +11,7 @@
 </picture>
 
 </td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
 <b>haroon-labs@Abdul-Ali</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 OS:......................................................................... Windows 11, macOS, Linux
@@ -30,8 +30,8 @@ Email.Personal:.............................................................. <a
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:..................................................................... 8 | Stars 1 | Followers 0
-<br>Commits:......................................................................................... 361
-<br>Lines of Code:........................................................... 199,283 (+199,283, -86,753)
+<br>Commits:......................................................................................... 328
+<br>Lines of Code:........................................................... 197,787 (+197,787, -85,257)
 </td>
 </tr>
 </table>
