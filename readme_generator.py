@@ -49,6 +49,10 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
     with open(stats_file, "r") as f:
         stats = json.load(f)
 
+    login = stats.get("login") or "haroon"
+    header = f"{login.lower()}@Abdul-Ali"
+    rule = "─" * 85
+
     # Build README content with theme-aware card
     readme_content = f"""# Haroon Abdul-Ali
 
@@ -65,6 +69,8 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
+**{header}**
+<br>{rule}
 {format_line('OS', 'Windows 11, macOS Sequoia, Linux (Fedora)', 85)}
 <br>{format_line('Uptime', uptime, 85)}
 <br>{format_line('Host', 'ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG', 85)}
@@ -78,11 +84,15 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Network Security', 85)}
 <br>{format_line('Hobbies.Creative', 'Analog Photography, Guitar', 85)}
 
-<br>{format_line('Email.Personal', 'haroon.aa.dev@gmail.com', 85)}
+<br><br>**Contact**
+<br>{rule}
+{format_line('Email.Personal', 'haroon.aa.dev@gmail.com', 85)}
 <br>{format_line('LinkedIn', 'Haroon Abdul-Ali', 85)}
 <br>{format_line('Discord', 'haroon.aa', 85)}
 
-<br>{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 85)}
+<br><br>**GitHub Stats**
+<br>{rule}
+{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 85)}
 <br>{format_line('Commits', f'{stats["total_commits"]:,}', 85)}
 <br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 85)}
 

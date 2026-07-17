@@ -13,6 +13,8 @@
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
+**haroon@Abdul-Ali**
+<br>─────────────────────────────────────────────────────────────────────────────────────
 OS:......................................... Windows 11, macOS Sequoia, Linux (Fedora)
 <br>Uptime:................................................... 25 years, 6 months, 22 days
 <br>Host:................................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
@@ -26,11 +28,15 @@ OS:......................................... Windows 11, macOS Sequoia, Linux (F
 <br>Hobbies.Technical:.................................. LLM Fine-tuning, Network Security
 <br>Hobbies.Creative:.......................................... Analog Photography, Guitar
 
-<br>Email.Personal:............................................... haroon.aa.dev@gmail.com
+<br><br>**Contact**
+<br>─────────────────────────────────────────────────────────────────────────────────────
+Email.Personal:............................................... haroon.aa.dev@gmail.com
 <br>LinkedIn:............................................................ Haroon Abdul-Ali
 <br>Discord:.................................................................... haroon.aa
 
-<br>Repos:...................................................... 8 | Stars 1 | Followers 0
+<br><br>**GitHub Stats**
+<br>─────────────────────────────────────────────────────────────────────────────────────
+Repos:...................................................... 8 | Stars 1 | Followers 0
 <br>Commits:.......................................................................... 289
 <br>Lines of Code:............................................ 196,430 (+196,430, -83,765)
 
