@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 364" width="620" height="364">
+<style>
+text { font-family: 'Courier New', Consolas, monospace; font-size: 13px; }
+.fg { fill: #59636e; }
+.strong { fill: #1f2328; font-weight: bold; font-size: 14px; }
+.rule { stroke: #d1d9e0; stroke-width: 1; }
+.dots { fill: #59636e; opacity: 0.55; }
+@media (prefers-color-scheme: dark) {
+  .fg { fill: #9198a1; }
+  .strong { fill: #f0f6fc; }
+  .rule { stroke: #3d444d; }
+  .dots { fill: #9198a1; }
+}
+</style>
+<text x="0" y="20" class="strong">haroon-labs@Abdul-Ali</text>
+<line x1="0" y1="28" x2="618" y2="28" class="rule"/>
+<text x="0" y="50" class="fg">OS:</text>
+<text x="185" y="50" textLength="243" lengthAdjust="spacingAndGlyphs" class="dots">........................................</text>
+<text x="618" y="50" text-anchor="end" class="fg">Windows 11, macOS, Linux</text>
+<text x="0" y="72" class="fg">Uptime:</text>
+<text x="185" y="72" textLength="220" lengthAdjust="spacingAndGlyphs" class="dots">....................................</text>
+<text x="618" y="72" text-anchor="end" class="fg">25 years, 6 months, 22 days</text>
+<text x="0" y="94" class="fg">Host:</text>
+<text x="185" y="94" textLength="296" lengthAdjust="spacingAndGlyphs" class="dots">.................................................</text>
+<text x="618" y="94" text-anchor="end" class="fg">C&amp;A GmbH &amp; Co. KG</text>
+<text x="0" y="116" class="fg">Kernel:</text>
+<text x="185" y="116" textLength="189" lengthAdjust="spacingAndGlyphs" class="dots">...............................</text>
+<text x="618" y="116" text-anchor="end" class="fg">Software Development Apprentice</text>
+<text x="0" y="138" class="fg">IDE:</text>
+<text x="185" y="138" textLength="273" lengthAdjust="spacingAndGlyphs" class="dots">.............................................</text>
+<text x="618" y="138" text-anchor="end" class="fg">VSCode, IDEA, Cursor</text>
+<text x="0" y="160" class="fg">Languages.Programming:</text>
+<text x="185" y="160" textLength="334" lengthAdjust="spacingAndGlyphs" class="dots">.......................................................</text>
+<text x="618" y="160" text-anchor="end" class="fg">Python, Java</text>
+<text x="0" y="182" class="fg">Languages.Real:</text>
+<text x="185" y="182" textLength="243" lengthAdjust="spacingAndGlyphs" class="dots">........................................</text>
+<text x="618" y="182" text-anchor="end" class="fg">German, English, Persian</text>
+<text x="0" y="204" class="fg">Hobbies.Technical:</text>
+<text x="185" y="204" textLength="144" lengthAdjust="spacingAndGlyphs" class="dots">.......................</text>
+<text x="618" y="204" text-anchor="end" class="fg">LLM Fine-tuning, Software development</text>
+<text x="0" y="226" class="fg">Hobbies.Sports/Fitness:</text>
+<text x="185" y="226" textLength="159" lengthAdjust="spacingAndGlyphs" class="dots">..........................</text>
+<text x="618" y="226" text-anchor="end" class="fg">Fitness, Jogging, Cycling, Swimming</text>
+<text x="0" y="262" class="strong">GitHub Stats</text>
+<line x1="0" y1="270" x2="618" y2="270" class="rule"/>
+<text x="0" y="292" class="fg">Repos:</text>
+<text x="185" y="292" textLength="235" lengthAdjust="spacingAndGlyphs" class="dots">.......................................</text>
+<text x="618" y="292" text-anchor="end" class="fg">8 | Stars 1 | Followers 0</text>
+<text x="0" y="314" class="fg">Commits:</text>
+<text x="185" y="314" textLength="402" lengthAdjust="spacingAndGlyphs" class="dots">...................................................................</text>
+<text x="618" y="314" text-anchor="end" class="fg">392</text>
+<text x="0" y="336" class="fg">Lines of Code:</text>
+<text x="185" y="336" textLength="220" lengthAdjust="spacingAndGlyphs" class="dots">....................................</text>
+<text x="618" y="336" text-anchor="end" class="fg">200,524 (+200,524, -87,932)</text>
+</svg>
