@@ -75,7 +75,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
 <b>{header}</b>
 {rule}
-{format_line('OS', 'Windows 11, macOS, Linux', 120)}
+{format_line('OS', 'Windows 11, macOS, Linux', 110)}
 <br>{format_line('Uptime', uptime, 90)}
 <br>{format_line('Host', 'C&A GmbH & Co. KG', 90)}
 <br>{format_line('Kernel', 'Software Development Apprentice | Software Engineering', 90)}
