@@ -73,7 +73,6 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
-
 **{header}**
 {rule}
 {format_line('OS', 'Windows 11, macOS, Linux', 85)}
@@ -81,24 +80,19 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <br>{format_line('Host', 'C&A GmbH & Co. KG', 85)}
 <br>{format_line('Kernel', 'Software Development Apprentice | Software Engineering', 85)}
 <br>{format_line('IDE', 'VSCode, IDEA, Cursor', 85)}
-
 <br>{format_line('Languages.Programming', 'Python, Java, (JavaScript)', 85)}
 <br>{format_line('Languages.Real', 'German, English, Persian', 85)}
-
 <br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 85)}
 <br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 85)}
-
 <br><br>**Contact**
 {rule}
 {format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 85, display_value='haroon.aa.dev@gmail.com')}
 <br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 85, display_value='Haroon Abdul-Ali')}
-
 <br><br>**GitHub Stats**
 {rule}
 {format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 85)}
 <br>{format_line('Commits', f'{stats["total_commits"]:,}', 85)}
 <br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 85)}
-
 </td>
 </tr>
 </table>
@@ -111,12 +105,6 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 Full-stack developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
 
 **Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
-
----
-
-## Let's Connect
-
-Reach out on [LinkedIn](https://www.linkedin.com/in/aa-haroon/) or email for collaborations, questions, or just to chat about tech.
 """
 
     # Write README
