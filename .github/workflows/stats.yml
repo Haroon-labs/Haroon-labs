@@ -32,7 +32,7 @@ jobs:
 
       - name: Fetch GitHub stats & generate README
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: python main.py profile.png
 
       - name: Commit & push updated stats
