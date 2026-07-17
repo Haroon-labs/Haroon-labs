@@ -15,9 +15,9 @@
 <b>haroon-labs@Abdul-Ali</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 OS:................................................................................... Windows 11, macOS, Linux
-<br>Uptime:........................................................ 25 years, 6 months, 22 days
-<br>Host:.................................................................... C&A GmbH & Co. KG
-<br>Kernel:............................. Software Development Apprentice | Software Engineering
+<br>Uptime:............................................................................ 25 years, 6 months, 22 days
+<br>Host:........................................................................................ C&A GmbH & Co. KG
+<br>Kernel:......... Software Development Apprentice | Software Engineering
 <br>IDE:.................................................................. VSCode, IDEA, Cursor
 <br>Languages.Programming:.......................................... Python, Java, (JavaScript)
 <br>Languages.Real:................................................... German, English, Persian
@@ -30,8 +30,8 @@ Email.Personal:.................................................... <a href="mai
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:........................................................... 8 | Stars 1 | Followers 0
-<br>Commits:............................................................................... 348
-<br>Lines of Code:................................................. 198,745 (+198,745, -86,215)
+<br>Commits:............................................................................... 328
+<br>Lines of Code:................................................. 197,787 (+197,787, -85,257)
 </td>
 </tr>
 </table>
