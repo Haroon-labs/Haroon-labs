@@ -14,7 +14,7 @@
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
 <b>haroon-labs@Abdul-Ali</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
-OS:............................................................... Windows 11, macOS, Linux
+OS:............................................................................................. Windows 11, macOS, Linux
 <br>Uptime:........................................................ 25 years, 6 months, 22 days
 <br>Host:.................................................................... C&A GmbH & Co. KG
 <br>Kernel:............................. Software Development Apprentice | Software Engineering
@@ -30,8 +30,8 @@ Email.Personal:.................................................... <a href="mai
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:........................................................... 8 | Stars 1 | Followers 0
-<br>Commits:............................................................................... 341
-<br>Lines of Code:................................................. 198,515 (+198,515, -85,985)
+<br>Commits:............................................................................... 344
+<br>Lines of Code:................................................. 198,606 (+198,606, -86,076)
 </td>
 </tr>
 </table>
