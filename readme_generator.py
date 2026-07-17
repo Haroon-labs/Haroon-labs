@@ -72,7 +72,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 </picture>
 
 </td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
 
 **{header}**
 {rule}
@@ -92,7 +92,6 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 {rule}
 {format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 85, display_value='haroon.aa.dev@gmail.com')}
 <br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 85, display_value='Haroon Abdul-Ali')}
-<br>{format_line('Discord', 'haroon.aa', 85)}
 
 <br><br>**GitHub Stats**
 {rule}
