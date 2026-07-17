@@ -48,8 +48,8 @@ text { font-family: 'Courier New', Consolas, monospace; font-size: 13px; }
 <text x="618" y="292" text-anchor="end" class="fg">8 | Stars 1 | Followers 0</text>
 <text x="0" y="314" class="fg">Commits:</text>
 <text x="185" y="314" textLength="402" lengthAdjust="spacingAndGlyphs" class="dots">...................................................................</text>
-<text x="618" y="314" text-anchor="end" class="fg">394</text>
+<text x="618" y="314" text-anchor="end" class="fg">395</text>
 <text x="0" y="336" class="fg">Lines of Code:</text>
 <text x="185" y="336" textLength="220" lengthAdjust="spacingAndGlyphs" class="dots">....................................</text>
-<text x="618" y="336" text-anchor="end" class="fg">200,765 (+200,765, -88,032)</text>
+<text x="618" y="336" text-anchor="end" class="fg">200,850 (+200,850, -88,081)</text>
 </svg>
