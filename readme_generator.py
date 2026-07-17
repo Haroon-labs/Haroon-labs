@@ -91,7 +91,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 
 <br><br>**Contact**
 {rule}
-{format_line('Email.Personal', 'haroon.aa.dev@gmail.com', 85)}
+{format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 85, display_value='haroon.aa.dev@gmail.com')}
 <br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 85, display_value='Haroon Abdul-Ali')}
 <br>{format_line('Discord', 'haroon.aa', 85)}
 
