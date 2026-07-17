@@ -29,12 +29,12 @@ def format_line(label: str, value: str, width: int = 90, display_value: str = No
     label_with_colon = f"{label}:"
     visible_value = display_value if display_value is not None else value
 
-    # Calculate dots to fill the space
-    # Total width = label + dots + value (all aligned)
+    # Calculate spaces to fill the space
+    # Total width = label + spaces + value (all aligned)
     available = width - len(label_with_colon) - len(visible_value)
-    dots = "." * max(1, available)
+    spaces = " " * max(1, available)
 
-    return f"{label_with_colon}{dots} {value}"
+    return f"{label_with_colon}{spaces}{value}"
 
 
 def _svg_row(y: int, label: str, value: str, canvas_width: int,
@@ -161,7 +161,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
 
     # Write the stats panel as SVG (exact right-edge alignment, immune to GitHub's HTML sanitizer)
     svg_content = build_stats_svg(header, info_rows, github_rows)
-    with open(svg_file, "w", encoding="utf-8") as f:
+    with open(svg_file, "w", encoding="utf-8", newline="\n") as f:
         f.write(svg_content)
 
     # Build README content with theme-aware card
@@ -203,7 +203,7 @@ Software developer passionate about building elegant solutions at the intersecti
 """
 
     # Write README
-    with open(output_file, "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="utf-8", newline="\n") as f:
         f.write(readme_content)
 
     print(f"[OK] README generated with SVG stats panel:")
