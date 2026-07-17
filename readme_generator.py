@@ -129,7 +129,9 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
         svg_file: Path to the generated stats SVG (info panel + GitHub stats)
     """
 
-    # Load environment variables
+    # Load environment variables: profile.env (committed, non-secret) then
+    # .env (gitignored, secrets/local overrides)
+    load_dotenv("profile.env")
     load_dotenv()
     birth_date = os.getenv("BIRTH_DATE") or "25.12.2000"
     uptime = calculate_age(birth_date)

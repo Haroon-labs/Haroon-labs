@@ -1,4 +1,4 @@
-# Your Name
+# Haroon Abdul-Ali
 
 <div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
 <table style="width: 100%; border: none;">
@@ -7,19 +7,19 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.png">
-  <img src="white.png" alt="Your Name" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
+  <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </picture>
 
 </td>
 <td width="65%" valign="top" style="border: none;">
 
-<img src="stats.svg" alt="haroon-labs@profile stats" style="width: 100%; display: block;">
+<img src="stats.svg" alt="haroon-labs@Abdul-Ali stats" style="width: 100%; display: block;">
 
 <div style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); margin-top: 6px;">
 <b>Contact</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
-Email.Personal:                                                                      <a href="mailto:you@example.com">you@example.com</a>
-<br>LinkedIn:                                                                                                  <a href="https://www.linkedin.com/in/your-profile/">Your Name</a>
+Email.Personal:                                                              <a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>
+<br>LinkedIn:                                                                                           <a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>
 </div>
 
 </td>

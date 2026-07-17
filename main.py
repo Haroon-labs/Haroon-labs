@@ -17,6 +17,7 @@ def main(image_path: str = None, generate_svg: bool = True):
         image_path: Path to profile image (for ASCII conversion)
         generate_svg: Whether to render SVG after fetching stats
     """
+    load_dotenv("profile.env")
     load_dotenv()
 
     token = os.getenv("PAT_TOKEN")
