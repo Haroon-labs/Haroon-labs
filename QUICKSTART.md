@@ -24,8 +24,6 @@ PAT_TOKEN=<your-token>
 BIRTH_DATE=YOUR_BIRTH_DATE
 ```
 
-`.env` is gitignored and will **never** be committed.
-
 ### Customizing identity, contact info & photos
 
 Nothing personal is hardcoded in `readme_generator.py` — name, email, LinkedIn, and profile photos all come from environment variables:
