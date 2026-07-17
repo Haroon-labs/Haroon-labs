@@ -30,8 +30,8 @@ Email.Personal:............................................... <a href="mailto:h
 <br><br>**GitHub Stats**
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:...................................................... 8 | Stars 1 | Followers 0
-<br>Commits:.......................................................................... 321
-<br>Lines of Code:............................................ 197,397 (+197,397, -84,865)
+<br>Commits:.......................................................................... 320
+<br>Lines of Code:............................................ 197,348 (+197,348, -84,816)
 </td>
 </tr>
 </table>
@@ -42,5 +42,4 @@ Repos:...................................................... 8 | Stars 1 | Follo
 ## About
 
 Full-stack developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
-
-**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
+<br>**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development

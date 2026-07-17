@@ -103,8 +103,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 ## About
 
 Full-stack developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
-
-**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
+<br>**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
 """
 
     # Write README
