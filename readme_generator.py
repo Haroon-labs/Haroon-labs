@@ -138,8 +138,15 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
     with open(stats_file, "r") as f:
         stats = json.load(f)
 
-    login = stats.get("login") or "haroon"
-    header = f"{login.lower()}@Abdul-Ali"
+    full_name = os.getenv("FULL_NAME") or "Your Name"
+    contact_email = os.getenv("CONTACT_EMAIL") or "you@example.com"
+    linkedin_url = os.getenv("LINKEDIN_URL") or "https://www.linkedin.com/in/your-profile/"
+    photo_light = os.getenv("PHOTO_LIGHT") or "white.png"
+    photo_dark = os.getenv("PHOTO_DARK") or "dark.png"
+    neofetch_host = os.getenv("NEOFETCH_HOST") or "profile"
+
+    login = stats.get("login") or "user"
+    header = f"{login.lower()}@{neofetch_host}"
     rule = '<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">'
 
     info_rows = [
@@ -165,7 +172,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
         f.write(svg_content)
 
     # Build README content with theme-aware card
-    readme_content = f"""# Haroon Abdul-Ali
+    readme_content = f"""# {full_name}
 
 <div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
 <table style="width: 100%; border: none;">
@@ -173,8 +180,8 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
 <td width="35%" valign="bottom" style="padding-right: 20px; border: none;">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.png">
-  <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
+  <source media="(prefers-color-scheme: dark)" srcset="{photo_dark}">
+  <img src="{photo_light}" alt="{full_name}" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </picture>
 
 </td>
@@ -185,8 +192,8 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
 <div style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); margin-top: 6px;">
 <b>Contact</b>
 {rule}
-{format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 100, display_value='haroon.aa.dev@gmail.com')}
-<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 116, display_value='Haroon Abdul-Ali')}
+{format_line('Email.Personal', f'<a href="mailto:{contact_email}">{contact_email}</a>', 100, display_value=contact_email)}
+<br>{format_line('LinkedIn', f'<a href="{linkedin_url}">{full_name}</a>', 116, display_value=full_name)}
 </div>
 
 </td>

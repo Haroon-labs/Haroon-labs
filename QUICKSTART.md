@@ -26,6 +26,21 @@ BIRTH_DATE=YOUR_BIRTH_DATE
 
 `.env` is gitignored and will **never** be committed.
 
+### Customizing identity, contact info & photos
+
+Nothing personal is hardcoded in `readme_generator.py` — name, email, LinkedIn, and profile photos all come from environment variables:
+
+```
+FULL_NAME=Your Name
+CONTACT_EMAIL=you@example.com
+LINKEDIN_URL=https://www.linkedin.com/in/your-profile/
+PHOTO_LIGHT=white.png
+PHOTO_DARK=dark.png
+NEOFETCH_HOST=profile
+```
+
+`PHOTO_LIGHT`/`PHOTO_DARK` are filenames relative to the repo root — drop your own images in and point these at them. `NEOFETCH_HOST` is just the "host" half of the `login@host` header in the stats panel (cosmetic).
+
 ### Customizing the info panel
 
 Everything shown in the info panel (OS, host, kernel, IDE, languages, hobbies) comes from environment variables, each with a sensible default — so a fresh clone works out of the box, and you only need to override what you want to change:
@@ -41,7 +56,7 @@ INFO_HOBBIES_TECHNICAL=LLM Fine-tuning, Software development
 INFO_HOBBIES_SPORTS=Fitness, Jogging, Cycling, Swimming
 ```
 
-See `.env.example` for the full list. If you fork this repo for yourself, set these in `.env` (local) and as repository **variables** (Settings → Secrets and variables → Actions → Variables tab — not Secrets, since this isn't sensitive data) so the automated workflow picks them up too, instead of editing `readme_generator.py`.
+See `.env.example` for the full list. If you fork this repo for yourself, set all of the above in `.env` (local) and as repository **variables** (Settings → Secrets and variables → Actions → Variables tab — not Secrets, since none of this is sensitive data) so the automated workflow picks them up too, instead of editing `readme_generator.py`.
 
 ## Running locally
 

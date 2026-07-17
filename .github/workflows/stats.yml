@@ -34,6 +34,12 @@ jobs:
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
           BIRTH_DATE: ${{ vars.BIRTH_DATE }}
+          FULL_NAME: ${{ vars.FULL_NAME }}
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          LINKEDIN_URL: ${{ vars.LINKEDIN_URL }}
+          PHOTO_LIGHT: ${{ vars.PHOTO_LIGHT }}
+          PHOTO_DARK: ${{ vars.PHOTO_DARK }}
+          NEOFETCH_HOST: ${{ vars.NEOFETCH_HOST }}
           INFO_OS: ${{ vars.INFO_OS }}
           INFO_HOST: ${{ vars.INFO_HOST }}
           INFO_KERNEL: ${{ vars.INFO_KERNEL }}
