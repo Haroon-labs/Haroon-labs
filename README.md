@@ -13,8 +13,8 @@
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
-**haroon-labs@Abdul-Ali**
-<br>─────────────────────────────────────────────────────────────────────────────────────
+**haroon@Abdul-Ali**
+<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 OS:......................................... Windows 11, macOS Sequoia, Linux (Fedora)
 <br>Uptime:................................................... 25 years, 6 months, 22 days
 <br>Host:................................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
@@ -29,16 +29,16 @@ OS:......................................... Windows 11, macOS Sequoia, Linux (F
 <br>Hobbies.Creative:.......................................... Analog Photography, Guitar
 
 <br><br>**Contact**
-<br>─────────────────────────────────────────────────────────────────────────────────────
+<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Email.Personal:............................................... haroon.aa.dev@gmail.com
 <br>LinkedIn:............................................................ Haroon Abdul-Ali
 <br>Discord:.................................................................... haroon.aa
 
 <br><br>**GitHub Stats**
-<br>─────────────────────────────────────────────────────────────────────────────────────
+<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:...................................................... 8 | Stars 1 | Followers 0
-<br>Commits:.......................................................................... 295
-<br>Lines of Code:............................................ 196,574 (+196,574, -83,893)
+<br>Commits:.......................................................................... 289
+<br>Lines of Code:............................................ 196,430 (+196,430, -83,765)
 
 </td>
 </tr>
