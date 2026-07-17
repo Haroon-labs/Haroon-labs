@@ -33,6 +33,15 @@ jobs:
       - name: Fetch GitHub stats & generate README
         env:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          BIRTH_DATE: ${{ vars.BIRTH_DATE }}
+          INFO_OS: ${{ vars.INFO_OS }}
+          INFO_HOST: ${{ vars.INFO_HOST }}
+          INFO_KERNEL: ${{ vars.INFO_KERNEL }}
+          INFO_IDE: ${{ vars.INFO_IDE }}
+          INFO_LANGUAGES_PROGRAMMING: ${{ vars.INFO_LANGUAGES_PROGRAMMING }}
+          INFO_LANGUAGES_REAL: ${{ vars.INFO_LANGUAGES_REAL }}
+          INFO_HOBBIES_TECHNICAL: ${{ vars.INFO_HOBBIES_TECHNICAL }}
+          INFO_HOBBIES_SPORTS: ${{ vars.INFO_HOBBIES_SPORTS }}
         run: python main.py profile.png
 
       - name: Commit & push updated stats
@@ -40,9 +49,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Only commit if README changed
-          if [ -n "$(git status README.md --porcelain)" ]; then
-            git add README.md
+          # Only commit if README or the stats SVG changed
+          if [ -n "$(git status README.md stats.svg --porcelain)" ]; then
+            git add README.md stats.svg
             git commit -m "chore: update GitHub stats (auto)" -m "Automated daily stats update from GitHub Actions"
             git push
           else

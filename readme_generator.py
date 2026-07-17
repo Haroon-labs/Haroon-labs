@@ -131,7 +131,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
 
     # Load environment variables
     load_dotenv()
-    birth_date = os.getenv("BIRTH_DATE", "25.12.2000")
+    birth_date = os.getenv("BIRTH_DATE") or "25.12.2000"
     uptime = calculate_age(birth_date)
 
     # Load stats
@@ -143,15 +143,15 @@ def generate_readme(stats_file="stats.json", output_file="README.md", svg_file="
     rule = '<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">'
 
     info_rows = [
-        ("OS", "Windows 11, macOS, Linux"),
+        ("OS", os.getenv("INFO_OS") or "Windows 11, macOS, Linux"),
         ("Uptime", uptime),
-        ("Host", "C&A GmbH & Co. KG"),
-        ("Kernel", "Software Development Apprentice"),
-        ("IDE", "VSCode, IDEA, Cursor"),
-        ("Languages.Programming", "Python, Java"),
-        ("Languages.Real", "German, English, Persian"),
-        ("Hobbies.Technical", "LLM Fine-tuning, Software development"),
-        ("Hobbies.Sports/Fitness", "Fitness, Jogging, Cycling, Swimming"),
+        ("Host", os.getenv("INFO_HOST") or "C&A GmbH & Co. KG"),
+        ("Kernel", os.getenv("INFO_KERNEL") or "Software Development Apprentice"),
+        ("IDE", os.getenv("INFO_IDE") or "VSCode, IDEA, Cursor"),
+        ("Languages.Programming", os.getenv("INFO_LANGUAGES_PROGRAMMING") or "Python, Java"),
+        ("Languages.Real", os.getenv("INFO_LANGUAGES_REAL") or "German, English, Persian"),
+        ("Hobbies.Technical", os.getenv("INFO_HOBBIES_TECHNICAL") or "LLM Fine-tuning, Software development"),
+        ("Hobbies.Sports/Fitness", os.getenv("INFO_HOBBIES_SPORTS") or "Fitness, Jogging, Cycling, Swimming"),
     ]
     github_rows = [
         ("Repos", f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}'),

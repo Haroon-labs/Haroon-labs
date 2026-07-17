@@ -26,6 +26,23 @@ BIRTH_DATE=YOUR_BIRTH_DATE
 
 `.env` is gitignored and will **never** be committed.
 
+### Customizing the info panel
+
+Everything shown in the info panel (OS, host, kernel, IDE, languages, hobbies) comes from environment variables, each with a sensible default — so a fresh clone works out of the box, and you only need to override what you want to change:
+
+```
+INFO_OS=Windows 11, macOS, Linux
+INFO_HOST=Your Company GmbH
+INFO_KERNEL=Your Job Title
+INFO_IDE=VSCode, IDEA, Cursor
+INFO_LANGUAGES_PROGRAMMING=Python, Java
+INFO_LANGUAGES_REAL=German, English
+INFO_HOBBIES_TECHNICAL=LLM Fine-tuning, Software development
+INFO_HOBBIES_SPORTS=Fitness, Jogging, Cycling, Swimming
+```
+
+See `.env.example` for the full list. If you fork this repo for yourself, set these in `.env` (local) and as repository **variables** (Settings → Secrets and variables → Actions → Variables tab — not Secrets, since this isn't sensitive data) so the automated workflow picks them up too, instead of editing `readme_generator.py`.
+
 ## Running locally
 
 ```bash
