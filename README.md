@@ -19,7 +19,7 @@ OS:.............................................................................
 <br>Host:................................................................................... C&A GmbH & Co. KG
 <br>Kernel:................................ Software Development Apprentice
 <br>IDE:.................................................................. VSCode, IDEA, Cursor
-<br>Languages.Programming:.......................................... Python, Java, (JavaScript)
+<br>Languages.Programming:........................................................ Python, Java
 <br>Languages.Real:................................................... German, English, Persian
 <br>Hobbies.Technical:................................... LLM Fine-tuning, Software development
 <br>Hobbies.Sports/Fitness:................................ Fitness, Jogging, Cycling, Swimming
@@ -30,8 +30,8 @@ Email.Personal:.................................................... <a href="mai
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:........................................................... 8 | Stars 1 | Followers 0
-<br>Commits:............................................................................... 352
-<br>Lines of Code:................................................. 198,931 (+198,931, -86,401)
+<br>Commits:............................................................................... 328
+<br>Lines of Code:................................................. 197,787 (+197,787, -85,257)
 </td>
 </tr>
 </table>
