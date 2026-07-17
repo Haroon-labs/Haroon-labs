@@ -30,8 +30,8 @@ Email.Personal:.............................................................. <a
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos: 8 | Stars 1 | Followers 0
-<br>Commits: 389
-<br>Lines of Code: 200,413 (+200,413, -87,883)
+<br>Commits: 391
+<br>Lines of Code: 200,522 (+200,522, -87,930)
 </td>
 </tr>
 </table>
