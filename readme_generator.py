@@ -76,9 +76,9 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 <b>{header}</b>
 {rule}
 {format_line('OS', 'Windows 11, macOS, Linux', 110)}
-<br>{format_line('Uptime', uptime, 110)}
-<br>{format_line('Host', 'C&A GmbH & Co. KG', 110)}
-<br>{format_line('Kernel', 'Software Development Apprentice | Software Engineering', 70)}
+<br>{format_line('Uptime', uptime, 100)}
+<br>{format_line('Host', 'C&A GmbH & Co. KG', 105)}
+<br>{format_line('Kernel', 'Software Development Apprentice', 70)}
 <br>{format_line('IDE', 'VSCode, IDEA, Cursor', 90)}
 <br>{format_line('Languages.Programming', 'Python, Java, (JavaScript)', 90)}
 <br>{format_line('Languages.Real', 'German, English, Persian', 90)}
