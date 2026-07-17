@@ -19,23 +19,21 @@ def calculate_age(birth_date_str: str) -> str:
         return "N/A"
 
 
-def toc_row(label: str, value: str) -> str:
-    """Render a table-of-contents-style row: label flush left, dot leader
-    filling the middle, value flush right at the edge of the column.
+def format_line(label: str, value: str, width: int = 90, display_value: str = None) -> str:
+    """Format label and value with dots, value right-aligned at end of line.
 
-    Column widths are set directly on each row's <td> (not <colgroup>/<col>,
-    which GitHub's HTML sanitizer strips) combined with table-layout: fixed
-    on the parent table, so the row can never grow wider than its box. The
-    label cell clips a long dot string with overflow:hidden to reach the
-    boundary; the value cell is right-aligned and wraps instead of
-    overflowing if it's ever too long for its column.
+    If value is markdown (e.g. a link) whose rendered width differs from its
+    raw length, pass the rendered text via display_value so dot-padding stays aligned.
     """
-    return (
-        "<tr>"
-        f'<td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">{label}:{"." * 250}</td>'
-        f'<td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">{value}</td>'
-        "</tr>"
-    )
+    label_with_colon = f"{label}:"
+    visible_value = display_value if display_value is not None else value
+
+    # Calculate dots to fill the space
+    # Total width = label + dots + value (all aligned)
+    available = width - len(label_with_colon) - len(visible_value)
+    dots = "." * max(1, available)
+
+    return f"{label_with_colon}{dots} {value}"
 
 
 def generate_readme(stats_file="stats.json", output_file="README.md"):
@@ -74,29 +72,27 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 </picture>
 
 </td>
-<td width="65%" valign="top" style="padding: 0;">
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
-<tr><td colspan="2"><b>{header}</b></td></tr>
-<tr><td colspan="2">{rule}</td></tr>
-{toc_row('OS', 'Windows 11, macOS, Linux')}
-{toc_row('Uptime', uptime)}
-{toc_row('Host', 'C&A GmbH & Co. KG')}
-{toc_row('Kernel', 'Software Development Apprentice | Software Engineering')}
-{toc_row('IDE', 'VSCode, IDEA, Cursor')}
-{toc_row('Languages.Programming', 'Python, Java, (JavaScript)')}
-{toc_row('Languages.Real', 'German, English, Persian')}
-{toc_row('Hobbies.Technical', 'LLM Fine-tuning, Software development')}
-{toc_row('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming')}
-<tr><td colspan="2"><br><b>Contact</b></td></tr>
-<tr><td colspan="2">{rule}</td></tr>
-{toc_row('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>')}
-{toc_row('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>')}
-<tr><td colspan="2"><br><b>GitHub Stats</b></td></tr>
-<tr><td colspan="2">{rule}</td></tr>
-{toc_row('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}')}
-{toc_row('Commits', f'{stats["total_commits"]:,}')}
-{toc_row('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})')}
-</table>
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
+<b>{header}</b>
+{rule}
+{format_line('OS', 'Windows 11, macOS, Linux', 85)}
+<br>{format_line('Uptime', uptime, 85)}
+<br>{format_line('Host', 'C&A GmbH & Co. KG', 85)}
+<br>{format_line('Kernel', 'Software Development Apprentice | Software Engineering', 85)}
+<br>{format_line('IDE', 'VSCode, IDEA, Cursor', 85)}
+<br>{format_line('Languages.Programming', 'Python, Java, (JavaScript)', 85)}
+<br>{format_line('Languages.Real', 'German, English, Persian', 85)}
+<br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 85)}
+<br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 85)}
+<br><br><b>Contact</b>
+{rule}
+{format_line('Email.Personal', '<a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>', 85, display_value='haroon.aa.dev@gmail.com')}
+<br>{format_line('LinkedIn', '<a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>', 85, display_value='Haroon Abdul-Ali')}
+<br><br><b>GitHub Stats</b>
+{rule}
+{format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 85)}
+<br>{format_line('Commits', f'{stats["total_commits"]:,}', 85)}
+<br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 85)}
 </td>
 </tr>
 </table>

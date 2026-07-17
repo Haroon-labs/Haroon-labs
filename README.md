@@ -11,29 +11,27 @@
 </picture>
 
 </td>
-<td width="65%" valign="top" style="padding: 0;">
-<table style="width: 100%; table-layout: fixed; border-collapse: collapse; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
-<tr><td colspan="2"><b>haroon-labs@Abdul-Ali</b></td></tr>
-<tr><td colspan="2"><hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;"></td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">OS:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">Windows 11, macOS, Linux</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Uptime:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">25 years, 6 months, 22 days</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Host:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">C&A GmbH & Co. KG</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Kernel:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">Software Development Apprentice | Software Engineering</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">IDE:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">VSCode, IDEA, Cursor</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Languages.Programming:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">Python, Java, (JavaScript)</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Languages.Real:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">German, English, Persian</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Hobbies.Technical:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">LLM Fine-tuning, Software development</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Hobbies.Sports/Fitness:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">Fitness, Jogging, Cycling, Swimming</td></tr>
-<tr><td colspan="2"><br><b>Contact</b></td></tr>
-<tr><td colspan="2"><hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;"></td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Email.Personal:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;"><a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a></td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">LinkedIn:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;"><a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a></td></tr>
-<tr><td colspan="2"><br><b>GitHub Stats</b></td></tr>
-<tr><td colspan="2"><hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;"></td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Repos:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">8 | Stars 1 | Followers 0</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Commits:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">333</td></tr>
-<tr><td style="width: 40%; white-space: nowrap; overflow: hidden; padding: 0;">Lines of Code:..........................................................................................................................................................................................................................................................</td><td style="width: 60%; text-align: right; padding: 0 0 0 6px; word-break: break-word;">198,076 (+198,076, -85,540)</td></tr>
-</table>
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
+<b>haroon-labs@Abdul-Ali</b>
+<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
+OS:.......................................................... Windows 11, macOS, Linux
+<br>Uptime:................................................... 25 years, 6 months, 22 days
+<br>Host:............................................................... C&A GmbH & Co. KG
+<br>Kernel:........................ Software Development Apprentice | Software Engineering
+<br>IDE:............................................................. VSCode, IDEA, Cursor
+<br>Languages.Programming:..................................... Python, Java, (JavaScript)
+<br>Languages.Real:.............................................. German, English, Persian
+<br>Hobbies.Technical:.............................. LLM Fine-tuning, Software development
+<br>Hobbies.Sports/Fitness:........................... Fitness, Jogging, Cycling, Swimming
+<br><br><b>Contact</b>
+<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
+Email.Personal:............................................... <a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>
+<br>LinkedIn:............................................................ <a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>
+<br><br><b>GitHub Stats</b>
+<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
+Repos:...................................................... 8 | Stars 1 | Followers 0
+<br>Commits:.......................................................................... 328
+<br>Lines of Code:............................................ 197,787 (+197,787, -85,257)
 </td>
 </tr>
 </table>
