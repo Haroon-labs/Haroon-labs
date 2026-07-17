@@ -15,18 +15,18 @@
 
 **haroon@Abdul-Ali**
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
-OS:......................................... Windows 11, macOS Sequoia, Linux (Fedora)
+OS:......................................... Windows 11, macOS, Linux
 <br>Uptime:................................................... 25 years, 6 months, 22 days
-<br>Host:................................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<br>Kernel:............................. Software Development Apprentice | Prompt Engineer
-<br>IDE:...................................................... VSCode, Cursor, Zsh, Neovim
+<br>Host:................................... C&A GmbH & Co. KG
+<br>Kernel:............................. Software Development Apprentice | Software Engineering
+<br>IDE:...................................................... VSCode, IDEA, Cursor 
 
-<br>Languages.Programming:........................... Python, JavaScript, TypeScript, Java
-<br>Languages.Computer:.................................... SQL, HTML, CSS, JSON, Markdown
-<br>Languages.Real:............................................... German, English, Arabic
+<br>Languages.Programming:........................... Python, Java , (JavaScript)
+<br>
+<br>Languages.Real:............................................... German, English, Persian
 
-<br>Hobbies.Technical:.................................. LLM Fine-tuning, Network Security
-<br>Hobbies.Creative:.......................................... Analog Photography, Guitar
+<br>Hobbies.Technical:.................................. LLM Fine-tuning, Software development 
+<br>Hobbies.Sports/Fitness: ..................Fitness, Jogging, Cycling, Swimming
 
 <br><br>**Contact**
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
