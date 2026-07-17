@@ -78,9 +78,9 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 {format_line('OS', 'Windows 11, macOS, Linux', 110)}
 <br>{format_line('Uptime', uptime, 108)}
 <br>{format_line('Host', 'C&A GmbH & Co. KG', 115)}
-<br>{format_line('Kernel', 'Software Development Apprentice', 102)}
+<br>{format_line('Kernel', 'Software Development Apprentice', 100)}
 <br>{format_line('IDE', 'VSCode, IDEA, Cursor', 120)}
-<br>{format_line('Languages.Programming', 'Python, Java', 115)}
+<br>{format_line('Languages.Programming', 'Python, Java', 112)}
 <br>{format_line('Languages.Real', 'German, English, Persian', 105)}
 <br>{format_line('Hobbies.Technical', 'LLM Fine-tuning, Software development', 83)}
 <br>{format_line('Hobbies.Sports/Fitness', 'Fitness, Jogging, Cycling, Swimming', 85)}
