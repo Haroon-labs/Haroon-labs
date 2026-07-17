@@ -30,8 +30,8 @@ Email.Personal:.............................................................. <a
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos: 8 | Stars 1 | Followers 0
-<br>Commits: 387
-<br>Lines of Code: 200,321 (+200,321, -87,791)
+<br>Commits: 328
+<br>Lines of Code: 197,787 (+197,787, -85,257)
 </td>
 </tr>
 </table>
@@ -41,5 +41,5 @@ Repos: 8 | Stars 1 | Followers 0
 
 ## About
 
-Full-stack developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
-<br>**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
+Software developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
+<br>**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development • JavaScript • React

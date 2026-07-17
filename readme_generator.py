@@ -102,8 +102,8 @@ Repos: {stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats[
 
 ## About
 
-Full-stack developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
-<br>**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
+Software developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
+<br>**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development • JavaScript • React
 """
 
     # Write README
