@@ -13,7 +13,7 @@
 </td>
 <td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
 
-**haroon@Abdul-Ali**
+**haroon-labs@Abdul-Ali**
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 OS:.......................................................... Windows 11, macOS, Linux
 <br>Uptime:................................................... 25 years, 6 months, 22 days
@@ -36,8 +36,8 @@ Email.Personal:............................................... <a href="mailto:h
 <br><br>**GitHub Stats**
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:...................................................... 8 | Stars 1 | Followers 0
-<br>Commits:.......................................................................... 289
-<br>Lines of Code:............................................ 196,430 (+196,430, -83,765)
+<br>Commits:.......................................................................... 311
+<br>Lines of Code:............................................ 197,058 (+197,058, -84,500)
 
 </td>
 </tr>
