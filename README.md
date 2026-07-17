@@ -1,15 +1,17 @@
 # Haroon Abdul-Ali
 
-<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle); overflow: auto;">
-<div style="float: left; width: 35%; padding-right: 20px; box-sizing: border-box;">
+<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
+<table style="width: 100%; border: none;">
+<tr>
+<td width="35%" valign="bottom" style="padding-right: 20px; border: none;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.png">
   <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </picture>
 
-</div>
-<div style="float: left; width: 65%; box-sizing: border-box; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
+</td>
+<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
 <b>haroon-labs@Abdul-Ali</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 OS:......................................................................... Windows 11, macOS, Linux
@@ -28,9 +30,11 @@ Email.Personal:.............................................................. <a
 <br><br><b>GitHub Stats</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 Repos:..................................................................... 8 | Stars 1 | Followers 0
-<br>Commits:......................................................................................... 366
-<br>Lines of Code:........................................................... 199,431 (+199,431, -86,909)
-</div>
+<br>Commits:......................................................................................... 328
+<br>Lines of Code:........................................................... 197,787 (+197,787, -85,257)
+</td>
+</tr>
+</table>
 </div>
 
 ---
