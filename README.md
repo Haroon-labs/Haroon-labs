@@ -1,17 +1,15 @@
 # Haroon Abdul-Ali
 
-<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
-<table style="width: 100%; border: none;">
-<tr>
-<td width="35%" valign="bottom" style="padding-right: 20px; border: none;">
+<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle); overflow: auto;">
+<div style="float: left; width: 35%; padding-right: 20px; box-sizing: border-box;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.png">
   <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </picture>
 
-</td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
+</div>
+<div style="float: left; width: 65%; box-sizing: border-box; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
 <b>haroon-labs@Abdul-Ali</b>
 <hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
 OS:......................................................................... Windows 11, macOS, Linux
@@ -32,9 +30,7 @@ Email.Personal:.............................................................. <a
 Repos:..................................................................... 8 | Stars 1 | Followers 0
 <br>Commits:......................................................................................... 328
 <br>Lines of Code:........................................................... 197,787 (+197,787, -85,257)
-</td>
-</tr>
-</table>
+</div>
 </div>
 
 ---

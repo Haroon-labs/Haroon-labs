@@ -61,18 +61,16 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
     # Build README content with theme-aware card
     readme_content = f"""# Haroon Abdul-Ali
 
-<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
-<table style="width: 100%; border: none;">
-<tr>
-<td width="35%" valign="bottom" style="padding-right: 20px; border: none;">
+<div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle); overflow: auto;">
+<div style="float: left; width: 35%; padding-right: 20px; box-sizing: border-box;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.png">
   <img src="white.png" alt="Haroon Abdul-Ali" style="width: 100%; max-width: 250px; height: auto; border-radius: 8px;">
 </picture>
 
-</td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); border: none;">
+</div>
+<div style="float: left; width: 65%; box-sizing: border-box; font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted);">
 <b>{header}</b>
 {rule}
 {format_line('OS', 'Windows 11, macOS, Linux', 100)}
@@ -93,9 +91,7 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
 {format_line('Repos', f'{stats["total_repos"]} | Stars {stats["total_stars"]} | Followers {stats["follower_count"]}', 100)}
 <br>{format_line('Commits', f'{stats["total_commits"]:,}', 100)}
 <br>{format_line('Lines of Code', f'{stats["total_additions"]:,} (+{stats["total_additions"]:,}, -{stats["total_deletions"]:,})', 100)}
-</td>
-</tr>
-</table>
+</div>
 </div>
 
 ---
