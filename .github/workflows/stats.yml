@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Clear stats cache (force fresh fetch)
+        run: rm -f .stats_cache.json stats.json
+
       - name: Fetch GitHub stats & generate README
         env:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}

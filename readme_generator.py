@@ -5,6 +5,8 @@ import os
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from dotenv import load_dotenv
+from github_client import GitHubClient
+from cache import StatsCache
 
 
 def calculate_age(birth_date_str: str) -> str:
@@ -45,9 +47,25 @@ def generate_readme(stats_file="stats.json", output_file="README.md"):
     birth_date = os.getenv("BIRTH_DATE", "25.12.2000")
     uptime = calculate_age(birth_date)
 
-    # Load stats
-    with open(stats_file, "r") as f:
-        stats = json.load(f)
+    # Fetch fresh stats from GitHub
+    token = os.getenv("GITHUB_TOKEN")
+    if token:
+        try:
+            cache = StatsCache(".stats_cache.json")
+            client = GitHubClient(token, cache)
+            stats = client.get_all_stats()
+
+            # Save updated stats
+            with open(stats_file, "w") as f:
+                json.dump(stats, f, indent=2)
+        except Exception as e:
+            print(f"[WARNING] Could not fetch fresh stats: {e}, using cached stats instead")
+            with open(stats_file, "r") as f:
+                stats = json.load(f)
+    else:
+        # Fallback to cached stats if no token
+        with open(stats_file, "r") as f:
+            stats = json.load(f)
 
     # Build README content with theme-aware card
     readme_content = f"""# Haroon Abdul-Ali
