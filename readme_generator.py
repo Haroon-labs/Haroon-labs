@@ -5,12 +5,9 @@ import os
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from dotenv import load_dotenv
-<<<<<<< HEAD
 from github_client import GitHubClient
 from cache import StatsCache
-=======
 from xml.sax.saxutils import escape as xml_escape
->>>>>>> 205ed0c13c6c4cd536bc986b2cd6642550c3bab7
 
 
 def calculate_age(birth_date_str: str) -> str:
