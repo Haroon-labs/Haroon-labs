@@ -1,9 +1,9 @@
 # Haroon Abdul-Ali
 
 <div style="border: 1px solid var(--color-border-default); border-radius: 12px; padding: 20px; background-color: var(--color-canvas-subtle);">
-<table style="width: 100%;">
+<table style="width: 100%; border: none;">
 <tr>
-<td width="35%" valign="bottom" style="padding-right: 20px;">
+<td width="35%" valign="bottom" style="padding-right: 20px; border: none;">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark.png">
@@ -11,28 +11,16 @@
 </picture>
 
 </td>
-<td width="65%" valign="top" style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.8; color: var(--color-fg-muted);">
+<td width="65%" valign="top" style="border: none;">
 
-OS:......................................... Windows 11, macOS Sequoia, Linux (Fedora)
-<br>Uptime:................................................... 25 years, 6 months, 21 days
-<br>Host:................................... ThinkPad X1 Carbon • Arch Linux GmbH & Co. KG
-<br>Kernel:............................. Software Development Apprentice | Prompt Engineer
-<br>IDE:...................................................... VSCode, Cursor, Zsh, Neovim
+<img src="stats.svg" alt="haroon-labs@Abdul-Ali stats" style="width: 100%; display: block;">
 
-<br>Languages.Programming:........................... Python, JavaScript, TypeScript, Java
-<br>Languages.Computer:.................................... SQL, HTML, CSS, JSON, Markdown
-<br>Languages.Real:............................................... German, English, Arabic
-
-<br>Hobbies.Technical:.................................. LLM Fine-tuning, Network Security
-<br>Hobbies.Creative:.......................................... Analog Photography, Guitar
-
-<br>Email.Personal:............................................... haroon.aa.dev@gmail.com
-<br>LinkedIn:............................................................ Haroon Abdul-Ali
-<br>Discord:.................................................................... haroon.aa
-
-<br>Repos:...................................................... 8 | Stars 1 | Followers 0
-<br>Commits:.......................................................................... 288
-<br>Lines of Code:............................................ 196,428 (+196,428, -83,763)
+<div style="font-family: 'Courier New', monospace; font-size: 12px; line-height: 1.3; color: var(--color-fg-muted); margin-top: 6px;">
+<b>Contact</b>
+<hr style="border: none; border-top: 1px solid var(--color-border-default); margin: 2px 0 6px 0;">
+Email.Personal:                                                              <a href="mailto:haroon.aa.dev@gmail.com">haroon.aa.dev@gmail.com</a>
+<br>LinkedIn:                                                                                           <a href="https://www.linkedin.com/in/aa-haroon/">Haroon Abdul-Ali</a>
+</div>
 
 </td>
 </tr>
@@ -43,12 +31,5 @@ OS:......................................... Windows 11, macOS Sequoia, Linux (F
 
 ## About
 
-Full-stack developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
-
-**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development
-
----
-
-## Let's Connect
-
-Reach out on [LinkedIn](https://linkedin.com/in/HaroonAbdul-Ali) or email for collaborations, questions, or just to chat about tech.
+Software developer passionate about building elegant solutions at the intersection of web technologies, AI, and automation. Exploring the cutting edge of LLMs, network architecture, and creative coding.
+<br>**Currently exploring:** GraphQL APIs • Modern Python • Machine Learning • Open Source Development • JavaScript • React

@@ -20,10 +20,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -35,7 +35,7 @@ jobs:
 
       - name: Fetch GitHub stats & generate README
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: python main.py profile.png
 
       - name: Commit & push updated stats
@@ -43,9 +43,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Only commit if README changed
-          if [ -n "$(git status README.md --porcelain)" ]; then
-            git add README.md
+          # Only commit if README or the stats SVG changed
+          if [ -n "$(git status README.md stats.svg --porcelain)" ]; then
+            git add README.md stats.svg
             git commit -m "chore: update GitHub stats (auto)" -m "Automated daily stats update from GitHub Actions"
             git push
           else

@@ -17,11 +17,12 @@ def main(image_path: str = None, generate_svg: bool = True):
         image_path: Path to profile image (for ASCII conversion)
         generate_svg: Whether to render SVG after fetching stats
     """
+    load_dotenv("profile.env")
     load_dotenv()
 
-    token = os.getenv("GITHUB_TOKEN")
+    token = os.getenv("PAT_TOKEN")
     if not token:
-        raise ValueError("GITHUB_TOKEN environment variable not set")
+        raise ValueError("PAT_TOKEN environment variable not set")
 
     print("[*] Fetching GitHub profile statistics...")
 
