@@ -4,7 +4,9 @@
 class GitHubGraphQLQueries:
     """GraphQL query templates for fetching GitHub profile data."""
 
-    # User profile info: repos, stars, followers, commits
+    # User profile info: repos, stars, followers.
+    # Branch/commit fields are intentionally excluded because fine-grained
+    # PATs may allow repository metadata while denying branch access.
     USER_PROFILE_QUERY = """
     query($first: Int!, $after: String) {
       viewer {
@@ -25,15 +27,6 @@ class GitHubGraphQLQueries:
               login
             }
             stargazerCount
-            defaultBranchRef {
-              target {
-                ... on Commit {
-                  history(first: 1) {
-                    totalCount
-                  }
-                }
-              }
-            }
           }
         }
       }
