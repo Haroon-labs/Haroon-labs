@@ -12,7 +12,7 @@ class GitHubGraphQLQueries:
         followers {
           totalCount
         }
-        repositories(first: $first, after: $after, affiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
+        repositories(first: $first, after: $after, affiliations: [OWNER]) {
           totalCount
           pageInfo {
             hasNextPage
@@ -24,9 +24,7 @@ class GitHubGraphQLQueries:
             owner {
               login
             }
-            stargazers {
-              totalCount
-            }
+            stargazerCount
             defaultBranchRef {
               target {
                 ... on Commit {
