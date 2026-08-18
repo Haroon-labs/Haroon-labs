@@ -43,25 +43,14 @@ class GitHubClient:
         """
         Fetch user profile stats: followers, total repos, total stars.
 
-        Returns:
-            {
-                "login": str,
-                "follower_count": int,
-                "total_repos": int,
-                "total_stars": int,
-                "repositories": [
-                    {
-                        "name": str,
-                        "owner": str,
-                        "stars": int,
-                        "total_commits": int
-                    }
-                ]
-            }
+        Repository branch data is intentionally not requested here because
+        fine-grained PATs can expose repository metadata while denying access
+        to branch/commit connections. Commit statistics are fetched separately.
         """
         all_repos = []
         after = None
         total_stars = 0
+        viewer = {}
 
         while True:
             variables = GitHubGraphQLQueries.get_user_profile_variables(after=after)
@@ -77,11 +66,8 @@ class GitHubClient:
                     repo_data = {
                         "name": repo.get("name"),
                         "owner": repo.get("owner", {}).get("login"),
-                        "stars": repo.get("stargazers", {}).get("totalCount", 0),
-                        "total_commits": repo.get("defaultBranchRef", {})
-                        .get("target", {})
-                        .get("history", {})
-                        .get("totalCount", 0),
+                        "stars": repo.get("stargazerCount", 0),
+                        "total_commits": 0,
                     }
                     all_repos.append(repo_data)
                     total_stars += repo_data["stars"]
@@ -101,113 +87,94 @@ class GitHubClient:
     def get_repo_commit_history(
         self, owner: str, repo: str, walk_history: bool = False
     ) -> Dict:
-        """
-        Fetch commit history for a repo.
-
-        Args:
-            owner: Repository owner
-            repo: Repository name
-            walk_history: If True, walk entire commit history. If False, use cached data.
-
-        Returns:
-            {
-                "name": str,
-                "owner": str,
-                "total_commits": int,
-                "total_additions": int,
-                "total_deletions": int
-            }
-        """
-        # Get total commit count first
-        variables = GitHubGraphQLQueries.get_repo_summary_variables(owner, repo)
-        result = self._execute_query(
-            GitHubGraphQLQueries.REPO_SUMMARY_QUERY, variables
-        )
-        repo_data = result.get("repository", {})
-        total_commits = (
-            repo_data.get("defaultBranchRef", {})
-            .get("target", {})
-            .get("history", {})
-            .get("totalCount", 0)
-        )
-
-        # Check cache to see if we need to re-walk commit history
-        cached = self.cache.get_repo_stats(owner, repo)
-        if cached and not walk_history:
-            if not self.cache.has_commit_count_changed(owner, repo, total_commits):
-                return {
-                    "name": repo,
-                    "owner": owner,
-                    "total_commits": cached["commit_count"],
-                    "total_additions": cached["additions"],
-                    "total_deletions": cached["deletions"],
-                }
-
-        # Walk entire commit history
-        total_additions = 0
-        total_deletions = 0
-        after = None
-
-        while True:
-            variables = GitHubGraphQLQueries.get_repo_commit_history_variables(
-                owner, repo, after=after
-            )
+        """Fetch commit history for a repo, tolerating inaccessible repositories."""
+        try:
+            variables = GitHubGraphQLQueries.get_repo_summary_variables(owner, repo)
             result = self._execute_query(
-                GitHubGraphQLQueries.REPO_COMMIT_HISTORY_QUERY, variables
+                GitHubGraphQLQueries.REPO_SUMMARY_QUERY, variables
             )
             repo_data = result.get("repository", {})
-            commits = (
+            total_commits = (
                 repo_data.get("defaultBranchRef", {})
                 .get("target", {})
                 .get("history", {})
+                .get("totalCount", 0)
             )
 
-            for commit in commits.get("nodes", []):
-                if commit:
-                    total_additions += commit.get("additions", 0)
-                    total_deletions += commit.get("deletions", 0)
+            cached = self.cache.get_repo_stats(owner, repo)
+            if cached and not walk_history:
+                if not self.cache.has_commit_count_changed(owner, repo, total_commits):
+                    return {
+                        "name": repo,
+                        "owner": owner,
+                        "total_commits": cached["commit_count"],
+                        "total_additions": cached["additions"],
+                        "total_deletions": cached["deletions"],
+                    }
 
-            if not commits.get("pageInfo", {}).get("hasNextPage"):
-                break
-            after = commits.get("pageInfo", {}).get("endCursor")
+            total_additions = 0
+            total_deletions = 0
+            after = None
 
-        # Cache the results
-        self.cache.set_repo_stats(owner, repo, total_commits, total_additions, total_deletions)
+            while True:
+                variables = GitHubGraphQLQueries.get_repo_commit_history_variables(
+                    owner, repo, after=after
+                )
+                result = self._execute_query(
+                    GitHubGraphQLQueries.REPO_COMMIT_HISTORY_QUERY, variables
+                )
+                repo_data = result.get("repository", {})
+                commits = (
+                    repo_data.get("defaultBranchRef", {})
+                    .get("target", {})
+                    .get("history", {})
+                )
 
-        return {
-            "name": repo,
-            "owner": owner,
-            "total_commits": total_commits,
-            "total_additions": total_additions,
-            "total_deletions": total_deletions,
-        }
+                for commit in commits.get("nodes", []):
+                    if commit:
+                        total_additions += commit.get("additions", 0)
+                        total_deletions += commit.get("deletions", 0)
+
+                if not commits.get("pageInfo", {}).get("hasNextPage"):
+                    break
+                after = commits.get("pageInfo", {}).get("endCursor")
+
+            self.cache.set_repo_stats(
+                owner, repo, total_commits, total_additions, total_deletions
+            )
+
+            return {
+                "name": repo,
+                "owner": owner,
+                "total_commits": total_commits,
+                "total_additions": total_additions,
+                "total_deletions": total_deletions,
+            }
+        except RuntimeError as exc:
+            if "FORBIDDEN" not in str(exc):
+                raise
+            print(f"[WARN] Skipping inaccessible commit history: {owner}/{repo}")
+            return {
+                "name": repo,
+                "owner": owner,
+                "total_commits": 0,
+                "total_additions": 0,
+                "total_deletions": 0,
+            }
 
     def get_all_stats(self) -> Dict:
-        """
-        Fetch all profile statistics: followers, repos, stars, commits, LOC.
-
-        Returns:
-            {
-                "login": str,
-                "follower_count": int,
-                "total_repos": int,
-                "total_stars": int,
-                "total_commits": int,
-                "total_additions": int,
-                "total_deletions": int,
-                "repositories": [...]
-            }
-        """
-        # Get user profile (has repo list and stars)
+        """Fetch all profile statistics: followers, repos, stars, commits, LOC."""
         profile = self.get_user_profile_stats()
 
-        # Walk commit history for each repo (intelligently cached)
         total_commits = 0
         total_additions = 0
         total_deletions = 0
 
         for repo_info in profile["repositories"]:
-            commit_data = self.get_repo_commit_history(repo_info["owner"], repo_info["name"])
+            commit_data = self.get_repo_commit_history(
+                repo_info["owner"], repo_info["name"]
+            )
+            repo_info["total_commits"] = commit_data["total_commits"]
             total_commits += commit_data["total_commits"]
             total_additions += commit_data["total_additions"]
             total_deletions += commit_data["total_deletions"]
